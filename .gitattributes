@@ -1,0 +1,5 @@
+# Preserve hardware, CAD and SigmaStudio files byte for byte.
+* -text
+*.md text eol=lf
+*.bin binary
+*.dspproj binary

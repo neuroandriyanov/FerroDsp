@@ -1,0 +1,145 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Saturday, February 7, 2026 9:38:22 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Saturday, February 7, 2026 9:38:22 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       01154    (of 20480)
+DM1 RAM used:       00538    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 01829    (of 8192) 1314 instructions (32bit: 799  64bit: 515)
+Total PM used:      01829    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        40      0       0       
+FRAMEWORK                     168       169       165     7       0
+NFilter1_7                    36        72        25      45      0
+PushVol1_2                    63        71        513     2       0
+NFilter1_8                    36        71        25      46      0
+NFilter1_5                    36        70        25      46      0
+NFilter1_6                    36        70        25      46      0
+NFilter1_9                    36        70        25      46      0
+H(t)1                         104       59        39      41      0
+H(t)2                         104       59        39      41      0
+Gen Filter1                   21        37        6       15      0
+VC Delay2                     19        21        1       6       0
+Tone1_2                       18        19        10      1       0
+VCO1                          17        19        7       1       0
+VCO1_2                        17        19        7       1       0
+Tone1                         18        18        10      1       0
+PeakEnv1_3                    16        18        4       1       0
+PeakEnv1                      16        18        4       1       0
+PeakEnv1_2                    16        18        4       1       0
+Inferface write1              15?       17        14      0       0	using: __ISR_Write__	using: __ISR_Read__	using: __MASTER_CONTROL_PORT_COMMON_INIT__	using: _SPI_WRITE_InterfaceWriteS3001_INT_WAIT__
+Pulse1                        17        17        4       2       0
+FIR1_9                        8         15        11      12      0
+FIR1_2                        8         14        11      12      0
+FIR1                          8         14        11      12      0
+FIR1_8                        8         14        11      11      0
+FIR1_5                        8         14        11      11      0
+FIR1_6                        8         14        11      11      0
+FIR1_7                        8         14        11      11      0
+FIR1_4                        8         14        9       10      0
+FIR1_3                        8         14        9       10      0
+Logic1_2                      8         13        0       2       0
+Logic1_4                      8         13        0       2       0
+Logic1                        8         13        0       2       0
+Logic1_3                      8         13        0       2       0
+Logic1_5                      8         13        0       1       0
+Logic1_6                      8         13        0       1       0
+ABCD 1_6                      7         12        0       1       0
+ABCD 1_5                      7         12        0       1       0
+ABCD 1_9                      7         12        0       1       0
+ABCD 1_7                      7         12        0       1       0
+ABCD 1_8                      7         12        0       1       0
+ABCD 1_4                      7         12        0       1       0
+ABCD 1_3                      7         12        0       1       0
+ABCD 1_10                     7         12        0       1       0
+DCB1                          8         11        3       3       0
+Hold1_2                       5         8         0       2       0
+X3                            5         8         0       1       0
+X4                            5         8         0       1       0
+Gain2_6                       5         7         1       1       0
+ZeroComp2                     5         7         1       1       0
+ZeroComp1                     5         7         1       1       0
+Sub3_2                        4         7         0       1       0
+Add4                          4         7         0       1       0
+Gain2_5                       5         6         1       0       0
+X5                            5         6         0       2       0
+Gain2_9                       5         5         1       1       0
+Gain2_7                       5         5         1       1       0
+RealTimeDisplay1              3         5         1       1       0
+RealTimeDisplay1_3            3         5         1       1       0
+Gain2_8                       5         5         1       0       0
+Hold2                         5         5         0       2       0
+Hold1                         5         5         0       2       0
+X1                            5         5         0       1       0
+Abs2_2                        3         5         0       1       0
+Abs2                          3         5         0       1       0
+X2                            5         5         0       1       0
+RealTimeDisplay1_2            3         4         1       1       0
+Input1                        4         4         0       2       0
+Fb1                           2         4         0       1       0
+Fb4                           2         4         0       1       0
+Fb5                           2         4         0       1       0
+Sub3                          4         4         0       1       0
+Add1                          4         4         0       1       0
+Add3                          4         4         0       1       0
+Fb3                           2         4         0       1       0
+Fb2                           2         4         0       1       0
+Input2                        4         4         0       0       0
+Sub2                          4         4         0       0       0
+Add2                          4         4         0       0       0
+DC1_23                        2         3         1       1       0
+DC1_22                        2         3         1       1       0
+Inferface read1               2         3         1       1       0
+DC1_20                        2         3         1       1       0
+DC1_19                        2         3         1       1       0
+DC1_17                        2         3         1       1       0
+DC1_24                        2         3         1       1       0
+DC1_16                        2         3         1       1       0
+DC1_15                        2         3         1       1       0
+DC1_14                        2         3         1       1       0
+DC1_13                        2         3         1       1       0
+DC1_18                        2         3         1       1       0
+DC1_25                        2         3         1       1       0
+DC1_26                        2         3         1       1       0
+DC1_34                        2         3         1       1       0
+DC1_38                        2         3         1       1       0
+DC1_28                        2         3         1       1       0
+DC1_29                        2         3         1       1       0
+DC1_30                        2         3         1       1       0
+Switch1_2                     2         3         1       1       0
+DC1_31                        2         3         1       1       0
+DC1_32                        2         3         1       1       0
+DC1_33                        2         3         1       1       0
+DC1_27                        2         3         1       1       0
+DC1_35                        2         3         1       1       0
+DC1_36                        2         3         1       1       0
+Abs1                          3         3         0       1       0
+Output1                       2         3         0       0       0
+SpdifOut2                     2         3         0       0       0
+SpdifOut1                     2         3         0       0       0
+DC1_21                        2         2         1       1       0
+Switch1                       2         2         1       1       0
+TX                            2         2         0       0       0
+(? Jump instruction present, actual cycle count may differ.)
+
+Subroutines called:
+__ISR_Write__                 0         13        4       0       0
+__ISR_Read__                  0         39        12      0       0
+__MASTER_CONTROL_PORT_COMMON_I0         104       6       0       0
+_SPI_WRITE_InterfaceWriteS30010         79        0       0       0
+--------------------------------------------------------------------------------------
+Total                         1196      1753      1150    534     0
+--------------------------------------------------------------------------------------
+(% Fs=96.0kHz)                39%       22%       6%      3%      0%
+
