@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "sourceLanguage": "ru",
+  "targetLanguage": "en",
+  "entries": [
+    {
+      "source": "README.md",
+      "target": "README.en.md",
+      "sourceSha256": "1431a62e4c2ebea42b774d45f27d12b1bb0fe7da0cc81add707adf0b71173fbd",
+      "targetSha256": "c13b6591f0185983bf6fc8c97bb8f47dade174f646717302c82f163ec3b53d51",
+      "status": "current"
+    },
+    {
+      "source": "NOTICE.md",
+      "target": "NOTICE.en.md",
+      "sourceSha256": "b27af21dcf6e5af2f9be8b6190f4314fc4f3fe24ab8f8bcd21f865465c304394",
+      "targetSha256": "a8a2b6acdbbe4d8bdd7cdb899c0ca39ac28d471e1be4ce9120dde01b66bd8cba",
+      "status": "current"
+    },
+    {
+      "source": "docs/TRANSLATION.md",
+      "target": "docs/TRANSLATION.en.md",
+      "sourceSha256": "73fd8d13006073c2e821a815a75dd753f2cb0e627cc2cc3b01cf28266797ddca",
+      "targetSha256": "1272c02ef2876bb7e9b0d31ad89ed4ce296ca70ebdbd1e001dc4773699cce70f",
+      "status": "current"
+    },
+    {
+      "source": "схема_плата/specificationsmd.xlsx",
+      "target": "схема_плата/specificationsmd.en.xlsx",
+      "sourceSha256": "3084e69208b7035a38f5e978ad9d4ccf23457e8973044f24b188c1ba87a5d55e",
+      "targetSha256": "4c2ee4dfefc597edbfe7da7665d736199d69fac7eca51540df62bc8d00d8d99f",
+      "status": "current"
+    }
+  ],
+  "shared": [
+    {
+      "path": "схема_плата/схема.pdf",
+      "sha256": "fd36036453bea0517ebe2ab444bb6b699c6ff039a2ab377eefdb9ea65063678a",
+      "reason": "All six pages visually reviewed: English labels, net names and title blocks; no translation required."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "43fbc31070e309dc9022a49fcfba775cc4d8728b5eea971a6a451cc954ae84bc",
+      "reason": "Canonical MIT license text, shared unchanged."
+    },
+    {
+      "path": "LICENSES/CERN-OHL-P-2.0.txt",
+      "sha256": "eeecc593866fa1c3b80189c7e3dc0ceb77740557fa92f81771f891cc54c579cb",
+      "reason": "Canonical license text, shared unchanged."
+    }
+  ]
+}
