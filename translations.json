@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "sourceLanguage": "ru",
+  "targetLanguage": "en",
+  "entries": [
+    {
+      "source": "NOTICE.md",
+      "target": "NOTICE.en.md",
+      "sourceSha256": "2f435c7c68a8db9f345de7645d80a900e3c7764e9646e2b11fe0e6c3524e730e",
+      "targetSha256": "d7d0fcd73300b06d5dabbca1950990d82abecca68d4963814974e1305372ee55"
+    },
+    {
+      "source": "README.md",
+      "target": "README.en.md",
+      "sourceSha256": "22046547a6802a98509f81bad51824a7ff05a92c2f929c4050ea84d83948f1c4",
+      "targetSha256": "d64c66b4276069463cae181f5618262fb8bd21eb99d826b50fc7b9ce967a0e51"
+    },
+    {
+      "source": "docs/TRANSLATIONS.md",
+      "target": "docs/TRANSLATIONS.en.md",
+      "sourceSha256": "772001fe5a17e25f41a2da1768dbfb378e65590fc14057cce9f5cc3af7261230",
+      "targetSha256": "cc2bf11ce40ae267d133d3ca5b8ce6085860ebc7cba5dc6792d20e467504fd97"
+    },
+    {
+      "source": "схема_плата/specificationsmd.xlsx",
+      "target": "docs/HARDWARE-ANNOTATIONS.en.md",
+      "sourceSha256": "3084e69208b7035a38f5e978ad9d4ccf23457e8973044f24b188c1ba87a5d55e",
+      "targetSha256": "9adeb95dab54c13284f147b324e320dd0748a6da86c84160977a6828a9fda4a0"
+    },
+    {
+      "source": "схема_плата/specificationsmd.xlsx",
+      "target": "схема_плата/specificationsmd.en.xlsx",
+      "sourceSha256": "3084e69208b7035a38f5e978ad9d4ccf23457e8973044f24b188c1ba87a5d55e",
+      "targetSha256": "eacbf711bd0a4cfddb87eb1b605d4b1dbeff117f272dad4914bac12dd81ef5c5"
+    },
+    {
+      "source": "схема_плата/схема.pdf",
+      "target": "docs/HARDWARE-ANNOTATIONS.en.md",
+      "sourceSha256": "fd36036453bea0517ebe2ab444bb6b699c6ff039a2ab377eefdb9ea65063678a",
+      "targetSha256": "9adeb95dab54c13284f147b324e320dd0748a6da86c84160977a6828a9fda4a0"
+    }
+  ]
+}
