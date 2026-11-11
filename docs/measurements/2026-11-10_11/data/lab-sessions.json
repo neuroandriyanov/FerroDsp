@@ -1,0 +1,456 @@
+[
+  {
+    "id": "20261111-210151-e0286216",
+    "item": {
+      "name": "Техническая запись",
+      "material": "фон материал отсутсвует",
+      "dimensions_mm": "",
+      "orientation": "Плоскость образца параллельна плоскости катушки",
+      "distance_mm": "",
+      "notes": ""
+    },
+    "camera": {
+      "name": "RealSense D415",
+      "firmware": "5.17.0.10",
+      "width": 640,
+      "height": 480,
+      "fps": 30
+    },
+    "counts": {
+      "camera": 872,
+      "audio_samples": 2983098,
+      "iq": 3078,
+      "rejected_packets": 0
+    },
+    "analysis": {
+      "frames": 872,
+      "signals": 3078,
+      "valid_signal_fraction": 0.9944769330734243,
+      "aligned_frames": 867,
+      "complete_observations": 1,
+      "max_pair_difference_ms": 4.998962,
+      "distance_spikes_corrected": 0,
+      "physical_sync_calibrated": false
+    },
+    "valid_iq_count": 3061,
+    "geometry_valid_count": 1,
+    "display": {
+      "settings": {
+        "top": "Δ фазы RX/TX, °",
+        "bottom": "Амплитуда |Z|",
+        "channels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seconds": 15.0,
+        "raw_ms": 10.0,
+        "auto": [
+          true,
+          true
+        ],
+        "limits": [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -0.2,
+            0.2
+          ]
+        ],
+        "distance_auto": true,
+        "distance_limits": [
+          0.0,
+          700.0
+        ]
+      },
+      "phase_baseline": [
+        [
+          1.7018270129752786,
+          3.1004052559543562
+        ],
+        [
+          1.3795827954935393,
+          -2.7645769433942835
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -0.318734551121759,
+          -0.5652850573434614
+        ]
+      ]
+    },
+    "demonstration": {
+      "file": "demonstration.mp4",
+      "frames": 924,
+      "fps": 30,
+      "duration_s": 30.8,
+      "camera_missing_frames": 34,
+      "size": [
+        1280,
+        640
+      ],
+      "codec": "H.264 / AVC",
+      "encoding": {
+        "codec": "H.264 / AVC",
+        "codec_tag": "avc1",
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": "3.1",
+        "faststart": true,
+        "full_decode_verified": true,
+        "frames": 924,
+        "fps": 30.0,
+        "size": [
+          1280,
+          640
+        ],
+        "duration_s": 30.8,
+        "bytes": 6900694
+      },
+      "graph_window_s": 8.0,
+      "channels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase_limits": [
+        -0.02677564785278474,
+        0.01694313537257948
+      ],
+      "amplitude_limits": [
+        0.015436813824382428,
+        0.1392230351327685
+      ],
+      "distance_limits": [
+        17.295423044433594,
+        21.295443044433593
+      ],
+      "distance_filter": {
+        "method": "centred_hampel_v1",
+        "window_frames": 5,
+        "minimum_deviation_mm": 15.0,
+        "mad_factor": 3.0,
+        "lookahead_frames": 2,
+        "max_gap_seconds": 0.060000000000000005,
+        "timestamp": "original centre frame; no time-axis shift",
+        "boundaries": "shortened window; never fill invalid depth or cross a gap"
+      },
+      "distance_spikes_corrected": 0
+    },
+    "error": null,
+    "source_manifest": {
+      "files": [
+        {
+          "path": "analysis.h5",
+          "bytes": 2066499,
+          "sha256": "a349a1d4777d57ce341c329a3dde005d2fefa2706a1970b8d1edc9f25d5a5e68"
+        },
+        {
+          "path": "audio-timing.jsonl",
+          "bytes": 7895599,
+          "sha256": "3c1e8043deceee462cd5fe72ab4913e42c5370c1b6e8bc5df53f34db2a0a5b8d"
+        },
+        {
+          "path": "background-m.npy",
+          "bytes": 1228928,
+          "sha256": "6bef2bf205a5d9e72188e7b768dc74bf8bc81be75afce2021e37d8c70fa7c6a2"
+        },
+        {
+          "path": "camera.h5",
+          "bytes": 238752737,
+          "sha256": "56eab66c6ea766567bf1a90a5d5194796a585753ad7e82e1cbe1ff035196d576"
+        },
+        {
+          "path": "camera.jsonl",
+          "bytes": 1175122,
+          "sha256": "cb0ddc7655b3b0589e7c0492ccfa31919ff0b41678eadb5434c136e4c819b07e"
+        },
+        {
+          "path": "demonstration-encoder.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "demonstration-preview.jpg",
+          "bytes": 162110,
+          "sha256": "ccb4175fa695063de2bd149f012c544388621a0f8ddde9337e4e65d6ae838535"
+        },
+        {
+          "path": "demonstration-timeline.jsonl",
+          "bytes": 110879,
+          "sha256": "778c082dbd80bb88ed611f20c4b74bd447cfcccf9370e0b0e562c13c8c3e7d07"
+        },
+        {
+          "path": "demonstration.mp4",
+          "bytes": 6900694,
+          "sha256": "294f1889030d5da1c627f1f74ee034d15056054028a8093ed3f1d202d70efa15"
+        },
+        {
+          "path": "distance-chart.jsonl",
+          "bytes": 107283,
+          "sha256": "3e06c31632b0dce6d3cb81717609b3894f9ec917bd8617141b03e090e4a3775a"
+        },
+        {
+          "path": "events.jsonl",
+          "bytes": 564,
+          "sha256": "a9e3a3a37b91d54147d6ae5dc67823c3753f76733b408cb745033f1b712bf977"
+        },
+        {
+          "path": "iq.jsonl",
+          "bytes": 1541863,
+          "sha256": "a13e94b03c0f1f0bac8bcae5dab7757160e5e82c3dc3eefb00cf83894d6b86ed"
+        },
+        {
+          "path": "session.json",
+          "bytes": 21643,
+          "sha256": "69ac338ab8cd952eec9e7c62fb1b469236352b7ff1eb9c967b9e3249a316520b"
+        },
+        {
+          "path": "spdif.wav",
+          "bytes": 17898632,
+          "sha256": "ec381744400b5f366c19728b30b6964eaaba0e03ae6fd272867d249e7717883e"
+        },
+        {
+          "path": "transport-calibration.json",
+          "bytes": 3657,
+          "sha256": "705c6054e50cd6679e466ffa2eca123c6f8db87412e915328811b5c688da09a1"
+        }
+      ],
+      "status": "completed"
+    }
+  },
+  {
+    "id": "20261111-211036-c74238fe",
+    "item": {
+      "name": "кольцо",
+      "material": "золото",
+      "dimensions_mm": "21*3мм",
+      "orientation": "Плоскость образца параллельна плоскости катушки",
+      "distance_mm": "",
+      "notes": ""
+    },
+    "camera": {
+      "name": "RealSense D415",
+      "firmware": "5.17.0.10",
+      "width": 640,
+      "height": 480,
+      "fps": 15
+    },
+    "counts": {
+      "camera": 999,
+      "audio_samples": 6475205,
+      "iq": 6715,
+      "rejected_packets": 0
+    },
+    "analysis": {
+      "frames": 999,
+      "signals": 6715,
+      "valid_signal_fraction": 0.9949367088607595,
+      "aligned_frames": 995,
+      "complete_observations": 905,
+      "max_pair_difference_ms": 5.026765,
+      "distance_spikes_corrected": 78,
+      "physical_sync_calibrated": false
+    },
+    "valid_iq_count": 6681,
+    "geometry_valid_count": 909,
+    "display": {
+      "settings": {
+        "top": "Δ фазы RX/TX, °",
+        "bottom": "Амплитуда |Z|",
+        "channels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seconds": 15.0,
+        "raw_ms": 10.0,
+        "auto": [
+          true,
+          true
+        ],
+        "limits": [
+          [
+            -1.0,
+            1.0
+          ],
+          [
+            -0.2,
+            0.2
+          ]
+        ],
+        "distance_auto": true,
+        "distance_limits": [
+          0.0,
+          700.0
+        ]
+      },
+      "phase_baseline": [
+        [
+          1.7020555444363872,
+          3.099662561617489
+        ],
+        [
+          1.3791715055473102,
+          -2.763873736733274
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          -0.3187025535547818,
+          -0.5653856865566492
+        ]
+      ]
+    },
+    "demonstration": {
+      "file": "demonstration.mp4",
+      "frames": 1008,
+      "fps": 15,
+      "duration_s": 67.2,
+      "camera_missing_frames": 0,
+      "size": [
+        1280,
+        640
+      ],
+      "codec": "H.264 / AVC",
+      "encoding": {
+        "codec": "H.264 / AVC",
+        "codec_tag": "avc1",
+        "pixel_format": "yuv420p",
+        "profile": "Main",
+        "level": "3.1",
+        "faststart": true,
+        "full_decode_verified": true,
+        "frames": 1008,
+        "fps": 15.0,
+        "size": [
+          1280,
+          640
+        ],
+        "duration_s": 67.2,
+        "bytes": 10741057
+      },
+      "graph_window_s": 8.0,
+      "channels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "phase_limits": [
+        -0.04107416297360411,
+        0.2656926087029085
+      ],
+      "amplitude_limits": [
+        0.01544278800500268,
+        0.1392110673978963
+      ],
+      "distance_limits": [
+        0,
+        198.31189590454102
+      ],
+      "distance_filter": {
+        "method": "centred_hampel_v1",
+        "window_frames": 5,
+        "minimum_deviation_mm": 15.0,
+        "mad_factor": 3.0,
+        "lookahead_frames": 2,
+        "max_gap_seconds": 0.12000000000000001,
+        "timestamp": "original centre frame; no time-axis shift",
+        "boundaries": "shortened window; never fill invalid depth or cross a gap"
+      },
+      "distance_spikes_corrected": 78
+    },
+    "error": null,
+    "source_manifest": {
+      "files": [
+        {
+          "path": "analysis.h5",
+          "bytes": 4143817,
+          "sha256": "e7bea0fbbce16de9041749bb0693f92299111a3b1e628702ba681db738559ee6"
+        },
+        {
+          "path": "audio-timing.jsonl",
+          "bytes": 17144930,
+          "sha256": "29df06126bb842cf8add67377e59b053c9d874bfee27137cc2c9928082800992"
+        },
+        {
+          "path": "background-m.npy",
+          "bytes": 1228928,
+          "sha256": "6bef2bf205a5d9e72188e7b768dc74bf8bc81be75afce2021e37d8c70fa7c6a2"
+        },
+        {
+          "path": "camera.h5",
+          "bytes": 242859324,
+          "sha256": "e8b9ef5a6e47331b16027bb937ce70d66a33b06a2247e0d2ee96e0ba23fad8ca"
+        },
+        {
+          "path": "camera.jsonl",
+          "bytes": 1531021,
+          "sha256": "e5b353a7c71fbb285303e80ad421ad15754d30dce96e5f3d60f22c0351c56eda"
+        },
+        {
+          "path": "demonstration-encoder.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "demonstration-preview.jpg",
+          "bytes": 152931,
+          "sha256": "8675fe837a5870e6ddf192550c6e89ed56c68111234fa483ff4722196f4dcb6d"
+        },
+        {
+          "path": "demonstration-timeline.jsonl",
+          "bytes": 121599,
+          "sha256": "d8897315583482251a5cc14633739370210983cdf73b9724f80cccaa6984b97f"
+        },
+        {
+          "path": "demonstration.mp4",
+          "bytes": 10741057,
+          "sha256": "9351fbd9ce28da4e093b8cc1310df0ad9414ac88f6d3010f147f04ff00592c2d"
+        },
+        {
+          "path": "distance-chart.jsonl",
+          "bytes": 146041,
+          "sha256": "14acd957a63e7eebb44be830eb353af502e67308b82b9c5c551e03781885a9f3"
+        },
+        {
+          "path": "events.jsonl",
+          "bytes": 562,
+          "sha256": "42e19e1ba5c55bef857ace7619d9e85b55dcf93beffe54054c1f5a8e1399fcd4"
+        },
+        {
+          "path": "iq.jsonl",
+          "bytes": 3364208,
+          "sha256": "2dba16c52ef6aa6824acef428499d9eb6ecb1759b8b322fdfe24f03564fd57b7"
+        },
+        {
+          "path": "session.json",
+          "bytes": 21579,
+          "sha256": "78139e0e36d3c239faea0680f21c2fb0f2d89d495f6b80d544a11f04f0c642ab"
+        },
+        {
+          "path": "spdif.wav",
+          "bytes": 38851274,
+          "sha256": "900351b037fa58afd35183e392a66a1fa16010a116297aaf852771fe86290e16"
+        },
+        {
+          "path": "transport-calibration.json",
+          "bytes": 3657,
+          "sha256": "705c6054e50cd6679e466ffa2eca123c6f8db87412e915328811b5c688da09a1"
+        }
+      ],
+      "status": "completed"
+    }
+  }
+]

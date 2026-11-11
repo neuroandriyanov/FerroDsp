@@ -3,3 +3,5 @@
 *.md text eol=lf
 *.bin binary
 *.dspproj binary
+*.pdf binary
+*.npz binary

@@ -1,0 +1,104 @@
+{
+  "name": "ferrodsp-am-iq-v1",
+  "version": 1,
+  "channels": [
+    {
+      "index": 0,
+      "label": "RX0",
+      "dsp_input": 0,
+      "connector": "X2 IN1",
+      "path": "DA5 LMP7721 -> DA6 PCM1808 VINL"
+    },
+    {
+      "index": 1,
+      "label": "RX1",
+      "dsp_input": 1,
+      "connector": "X2 IN2",
+      "path": "DA7 LMP7721 -> DA6 PCM1808 VINR"
+    },
+    {
+      "index": 2,
+      "label": "TX coil voltage",
+      "dsp_input": 16,
+      "connector": "X3 coil side",
+      "path": "after C33/C34 -> R29+R32/R35, C38, DA10.2 -> DA9 VINL"
+    },
+    {
+      "index": 3,
+      "label": "TX amplifier voltage",
+      "dsp_input": 17,
+      "connector": "amplifier side",
+      "path": "after C32, before C33/C34 -> R28/R33, C52, DA10.1 -> DA9 VINR"
+    }
+  ],
+  "dsp_fs_hz": 96000,
+  "adc_serial_clock_configuration_hz": 48000,
+  "tx_hz": 15200,
+  "tx_gain_db": -18,
+  "references": {
+    "I": "sin(2*pi*15200*t)",
+    "Q": "sin(2*pi*15200*t+pi/2)",
+    "gain": 1
+  },
+  "detector": {
+    "equation": "uI=LPF(x*refI); uQ=LPF(x*refQ)",
+    "filter": "Butterworth lowpass, order 4, 100 Hz, NthOrderDoubleS300",
+    "note": "No factor of 2 applied; absolute sign/phase includes analogue transfer and ADC/DSP timing."
+  },
+  "transport": {
+    "left": "sum(Ac*(0.5+0.8*uI[k])*sin(2*pi*fc[k]*t))+pilot",
+    "right": "sum(Ac*(0.5+0.8*uQ[k])*sin(2*pi*fc[k]*t))+pilot",
+    "carriers_hz": [
+      1500,
+      3700,
+      5900,
+      8100
+    ],
+    "carrier_gain_db": -18.06,
+    "carrier_gain_readback": 0.1250259280204773,
+    "pilot_hz": 10300,
+    "pilot_gain_db": -26.02,
+    "pilot_gain_readback": 0.05000346899032593
+  },
+  "receiver": {
+    "device": "Sound Blaster G3 SPDIF / Windows WASAPI exclusive",
+    "pcm_rate_hz": 96000,
+    "pcm_bits": 24,
+    "decoder": "iq_transport.py",
+    "output_hz": 100,
+    "window_ms": 40,
+    "window": "Hann, centered",
+    "useful_envelope_band_hz_approx": 20,
+    "iq_order": [
+      "0I",
+      "0Q",
+      "1I",
+      "1Q",
+      "2I",
+      "2Q",
+      "3I",
+      "3Q"
+    ],
+    "supported_iq_range": [
+      -0.56,
+      0.56
+    ],
+    "invalid_samples": "Keep valid mask; never fill gaps as actual observations"
+  },
+  "calibration": {
+    "file": "transport-calibration.json",
+    "sha256": "705c6054e50cd6679e466ffa2eca123c6f8db87412e915328811b5c688da09a1",
+    "levels": [
+      -0.25,
+      0,
+      0.25
+    ],
+    "method": "Per-component linear fit to carrier/pilot amplitude ratio"
+  },
+  "limitations": [
+    "Complex envelopes only; full-band ADC samples and harmonics cannot be reconstructed.",
+    "Pilot monitors timing quality but is not a CRC or proof of bit transparency.",
+    "No ADC clipping flag transmitted; optical clipping test does not establish analogue headroom.",
+    "No hardware volts/current calibration; values remain DSP units."
+  ]
+}

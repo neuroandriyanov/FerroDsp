@@ -1,1 +1,4 @@
 /tmp/
+/output/
+# Local bench archives; selected publication derivatives live under docs/measurements.
+/experiments/

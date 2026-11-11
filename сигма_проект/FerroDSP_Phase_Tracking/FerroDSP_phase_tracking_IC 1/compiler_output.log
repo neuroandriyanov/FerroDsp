@@ -1,0 +1,170 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, November 11, 2026 10:09:01 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, November 11, 2026 10:09:01 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00470    (of 20480)
+DM1 RAM used:       00529    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 01571    (of 8192) 1144 instructions (32bit: 717  64bit: 427)
+Total PM used:      01571    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+NFilter1_6                    36        72        25      46      0
+NFilter1_7                    36        72        25      45      0
+NFilter1_8                    36        70        25      46      0
+NFilter1_5                    36        70        25      46      0
+H(t)1                         104       62        39      41      0
+H(t)2                         104       61        39      41      0
+FRAMEWORK                     58        39        12      7       0
+Gen Filter1                   21        37        6       15      0
+MeasureGen1                   23        23        7       1       0
+MeasureTX17                   23        23        7       1       0
+MeasureTX16                   23        23        7       1       0
+MeasureRX0                    23        23        7       1       0
+MeasureRX1                    23        23        7       1       0
+MeasureRXSum                  23        23        7       1       0
+VC Delay2                     19        22        1       6       0
+Tone1_2                       18        19        10      1       0
+VCO1_2                        17        19        7       1       0
+VCO1                          17        19        7       1       0
+Tone1                         18        18        10      1       0
+PeakEnv1_2                    16        18        4       1       0
+PeakEnv1_3                    16        18        4       1       0
+PeakEnv1                      16        18        4       1       0
+Pulse1                        17        17        4       2       0
+FIR1_9                        8         15        11      12      0
+FIR1                          8         15        11      12      0
+FIR1_5                        8         15        11      11      0
+FIR1_2                        8         14        11      12      0
+FIR1_6                        8         14        11      11      0
+FIR1_8                        8         14        11      11      0
+FIR1_7                        8         14        11      11      0
+FIR1_4                        8         14        9       10      0
+FIR1_3                        8         14        9       10      0
+Logic1_4                      8         13        0       2       0
+Logic1_2                      8         13        0       2       0
+Logic1                        8         13        0       2       0
+Logic1_3                      8         13        0       2       0
+Logic1_5                      8         13        0       1       0
+Logic1_6                      8         13        0       1       0
+ABCD 1_10                     7         12        0       1       0
+ABCD 1_9                      7         12        0       1       0
+ABCD 1_6                      7         12        0       1       0
+ABCD 1_5                      7         12        0       1       0
+ABCD 1_8                      7         12        0       1       0
+ABCD 1_7                      7         12        0       1       0
+DCB1                          8         11        3       3       0
+AB_WarmTimer                  10        10        1       2       0
+AB_EndTimer                   10        10        1       2       0
+LT_QuietTimer                 10        10        1       2       0
+Hold1_2                       5         8         0       2       0
+X2                            5         8         0       1       0
+X1                            5         8         0       1       0
+X4                            5         8         0       1       0
+X3                            5         8         0       1       0
+LT_ErrorSum                   6         7         2       2       0
+AB_Accumulator                6         7         2       2       0
+Gain2_6                       5         7         1       1       0
+ZeroComp1                     5         7         1       1       0
+ZeroComp2                     5         7         1       1       0
+Gain2_5                       5         7         1       0       0
+LT_GainSelect                 7         7         0       1       0
+AB_Gate                       7         7         0       1       0
+AB_LowerLimit                 7         7         0       1       0
+LT_NearZero                   7         7         0       1       0
+Add1                          4         7         0       1       0
+Sub3_2                        4         7         0       1       0
+Add4                          4         7         0       1       0
+LT_BelowLimit                 7         7         0       1       0
+AB_UpperLimit                 7         7         0       1       0
+AB_Delay                      6         6         2       1       0
+LT_SlowGain                   5         5         1       1       0
+Gain2_9                       5         5         1       1       0
+AB_OutputScale                5         5         1       1       0
+RealTimeDisplay1              3         5         1       1       0
+AB_IntegralGain               5         5         1       1       0
+Gain2_7                       5         5         1       1       0
+Gain2_8                       5         5         1       0       0
+Hold1                         5         5         0       2       0
+Hold2                         5         5         0       2       0
+Abs2_2                        3         5         0       1       0
+Abs2                          3         5         0       1       0
+AB_ResetState                 5         5         0       1       0
+LT_QuietEnable                5         5         0       1       0
+AB_ErrorGate                  5         5         0       1       0
+RealTimeDisplay1_3            3         4         1       1       0
+ReadAutoState                 3         4         1       1       0
+RealTimeDisplay1_2            3         4         1       1       0
+ReadNearZero                  3         4         1       1       0
+ReadAutoActive                3         4         1       1       0
+ReadTrackReady                3         4         1       1       0
+ReadRXSum                     3         4         1       1       0
+ReadTrackError                3         4         1       1       0
+ReadAutoDone                  3         4         1       1       0
+ReadRX1                       3         4         1       1       0
+ReadRX0                       3         4         1       1       0
+ReadGen1                      3         4         1       1       0
+ReadTX17                      3         4         1       1       0
+ReadTX16                      3         4         1       1       0
+Input1                        4         4         0       2       0
+Fb5                           2         4         0       1       0
+Fb4                           2         4         0       1       0
+AB_PhaseMemory                2         4         0       1       0
+Fb3                           2         4         0       1       0
+Sub3                          4         4         0       1       0
+Fb2                           2         4         0       1       0
+Add3                          4         4         0       1       0
+Add2                          4         4         0       0       0
+Input2                        4         4         0       0       0
+Sub2                          4         4         0       0       0
+DC1_31                        2         3         1       1       0
+DC1_30                        2         3         1       1       0
+DC1_29                        2         3         1       1       0
+DC1_28                        2         3         1       1       0
+DC1_25                        2         3         1       1       0
+DC1_26                        2         3         1       1       0
+DC1_33                        2         3         1       1       0
+DC1_24                        2         3         1       1       0
+DC1_23                        2         3         1       1       0
+DC1_22                        2         3         1       1       0
+DC1_27                        2         3         1       1       0
+DC1_34                        2         3         1       1       0
+DC1_32                        2         3         1       1       0
+DC1_36                        2         3         1       1       0
+Switch1_2                     2         3         1       1       0
+DC1_38                        2         3         1       1       0
+DC1_35                        2         3         1       1       0
+Abs1                          3         3         0       1       0
+AB_StateMemory                2         3         0       1       0
+Output1                       2         3         0       0       0
+SpdifOut1                     2         3         0       0       0
+LT_QuietSamples               2         2         1       1       0
+LT_NegLimit                   2         2         1       1       0
+LT_PosLimit                   2         2         1       1       0
+LT_TestOffset                 2         2         1       1       0
+AB_MaxState                   2         2         1       1       0
+AB_InitialDelay               2         2         1       1       0
+AB_EndSamples                 2         2         1       1       0
+Switch1                       2         2         1       1       0
+AB_WarmSamples                2         2         1       1       0
+AB_Zero                       2         2         1       1       0
+AB_MinState                   2         2         1       1       0
+AB_One                        2         2         1       1       0
+SpdifOut2                     2         2         0       0       0
+TX                            2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         1251      1521      466     525     0
+--------------------------------------------------------------------------------------
+(% Fs=96.0kHz)                41%       19%       3%      3%      0%
+

@@ -1,0 +1,9 @@
+/local/
+/recordings/
+__pycache__/
+*.pyc
+/build/
+/dist/
+/.venv/
+/UserData/
+

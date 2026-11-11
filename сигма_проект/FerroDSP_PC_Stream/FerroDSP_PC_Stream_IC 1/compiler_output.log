@@ -1,0 +1,117 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, November 11, 2026 10:12:04 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, November 11, 2026 10:12:04 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00247    (of 20480)
+DM1 RAM used:       00242    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 00822    (of 8192) 693 instructions (32bit: 564  64bit: 129)
+Total PM used:      00822    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+FRAMEWORK                     54        35        8       7       0
+PC_LP1I                       18        32        10      19      0
+PC_LP1Q                       18        32        10      19      0
+PC_LP2I                       18        32        10      19      0
+PC_LP2Q                       18        32        10      19      0
+PC_LP3I                       18        32        10      19      0
+PC_LP3Q                       18        32        10      19      0
+PC_LP0Q                       18        32        10      19      0
+PC_LP0I                       18        32        10      19      0
+PC_Pilot                      18        18        10      1       0
+PC_Carrier0                   18        18        10      1       0
+PC_Carrier1                   18        18        10      1       0
+PC_RefQ                       18        18        10      1       0
+PC_RefI                       18        18        10      1       0
+PC_Carrier2                   18        18        10      1       0
+PC_Carrier3                   18        18        10      1       0
+Tone1                         18        18        10      1       0
+PC_Select1Q                   7         7         0       1       0
+PC_Select0I                   7         7         0       1       0
+PC_Select2Q                   7         7         0       1       0
+PC_Select3I                   7         7         0       1       0
+PC_Select3Q                   7         7         0       1       0
+PC_Select1I                   7         7         0       1       0
+PC_Select0Q                   7         7         0       1       0
+PC_Select2I                   7         7         0       1       0
+PC_Offset1Q                   6         6         2       1       0
+PC_FinalQ                     6         6         2       1       0
+PC_FinalI                     6         6         2       1       0
+PC_Sum3Q                      6         6         2       1       0
+PC_Sum3I                      6         6         2       1       0
+PC_Sum2Q                      6         6         2       1       0
+PC_Sum2I                      6         6         2       1       0
+PC_Sum1Q                      6         6         2       1       0
+PC_Sum1I                      6         6         2       1       0
+PC_Offset2Q                   6         6         2       1       0
+PC_Offset2I                   6         6         2       1       0
+PC_Offset3I                   6         6         2       1       0
+PC_Offset3Q                   6         6         2       1       0
+PC_Offset1I                   6         6         2       1       0
+PC_Offset0I                   6         6         2       1       0
+PC_Offset0Q                   6         6         2       1       0
+PC_Scale2I                    5         5         1       1       0
+PC_Scale3I                    5         5         1       1       0
+PC_Scale2Q                    5         5         1       1       0
+PC_Scale1Q                    5         5         1       1       0
+PC_Scale3Q                    5         5         1       1       0
+PC_Scale0Q                    5         5         1       1       0
+PC_Scale0I                    5         5         1       1       0
+PC_Scale1I                    5         5         1       1       0
+PC_AM1I                       5         5         0       1       0
+PC_AM1Q                       5         5         0       1       0
+PC_AM2I                       5         5         0       1       0
+PC_AM2Q                       5         5         0       1       0
+PC_AM3I                       5         5         0       1       0
+PC_AM3Q                       5         5         0       1       0
+PC_AM0I                       5         5         0       1       0
+PC_AM0Q                       5         5         0       1       0
+PC_Mix0Q                      5         5         0       1       0
+PC_Mix3Q                      5         5         0       1       0
+PC_Mix0I                      5         5         0       1       0
+PC_Mix3I                      5         5         0       1       0
+PC_Mix1I                      5         5         0       1       0
+PC_Mix1Q                      5         5         0       1       0
+PC_Mix2I                      5         5         0       1       0
+PC_Mix2Q                      5         5         0       1       0
+PC_Read3Q                     3         4         1       1       0
+PC_Read3I                     3         4         1       1       0
+PC_Read2Q                     3         4         1       1       0
+PC_Read2I                     3         4         1       1       0
+PC_Read1Q                     3         4         1       1       0
+PC_Read1I                     3         4         1       1       0
+PC_Read0Q                     3         4         1       1       0
+Input2                        4         4         0       2       0
+Input1                        4         4         0       2       0
+PC_Read0I                     3         3         1       1       0
+PC_Cal3Q                      2         2         1       1       0
+PC_Cal3I                      2         2         1       1       0
+PC_Cal0Q                      2         2         1       1       0
+PC_Cal2I                      2         2         1       1       0
+PC_Cal1Q                      2         2         1       1       0
+PC_Cal1I                      2         2         1       1       0
+PC_Cal0I                      2         2         1       1       0
+PC_Bias                       2         2         1       1       0
+PC_Mode                       2         2         1       1       0
+PC_Zero                       2         2         1       1       0
+PC_Cal2Q                      2         2         1       1       0
+Output1                       2         2         0       0       0
+TX                            2         2         0       0       0
+SpdifOut1                     2         2         0       0       0
+SpdifOut2                     2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         676       776       243     238     0
+--------------------------------------------------------------------------------------
+(% Fs=96.0kHz)                23%       10%       2%      2%      0%
+

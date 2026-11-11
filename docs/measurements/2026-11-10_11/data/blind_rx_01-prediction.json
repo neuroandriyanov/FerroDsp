@@ -1,0 +1,126 @@
+{
+  "stage": "blind_rx_01",
+  "created": "2026-11-10T16:45:13.706160+00:00",
+  "model_sha256": "4e1574d14bef13d1d2f835601d2ea4e7470806a3d9d587eab850b2c855206cd2",
+  "wav_sha256": "a1cce2916742edd5c6aca64c964fb6fcb5f854381769b3a63cfbd142c7a1478f",
+  "orientation": "parallel",
+  "features": {
+    "lobes": [
+      {
+        "t_s": 100.15,
+        "vector": [
+          -0.22348589658617768,
+          -0.49213210056995726
+        ],
+        "unit": [
+          -0.413480131708688,
+          -0.910513141411021
+        ],
+        "angle_deg": -114.4236395451443,
+        "snr": 521.7548818438629,
+        "magnitude_percent": 0.6781992368523689
+      },
+      {
+        "t_s": 101.47,
+        "vector": [
+          -0.044543476583630996,
+          -0.09282093240327977
+        ],
+        "unit": [
+          -0.4326476171950451,
+          -0.9015631089033367
+        ],
+        "angle_deg": -115.6357023005849,
+        "snr": 102.5227175536989,
+        "magnitude_percent": 0.13326339862739783
+      },
+      {
+        "t_s": 102.19,
+        "vector": [
+          0.05063564082416891,
+          0.08286322060081502
+        ],
+        "unit": [
+          0.5214275615323645,
+          0.8532955514207327
+        ],
+        "angle_deg": 58.57194169585047,
+        "snr": 81.31369170240461,
+        "magnitude_percent": 0.10569500272490508
+      },
+      {
+        "t_s": 102.91,
+        "vector": [
+          -0.14600511211809372,
+          -0.30144496807483
+        ],
+        "unit": [
+          -0.43591081440655877,
+          -0.8999898676559702
+        ],
+        "angle_deg": -115.84326458256947,
+        "snr": 311.8042757606167,
+        "magnitude_percent": 0.4052964892649297
+      },
+      {
+        "t_s": 104.13,
+        "vector": [
+          -0.07467439863357414,
+          -0.16586652465113524
+        ],
+        "unit": [
+          -0.41052222437386293,
+          -0.9118505926384737
+        ],
+        "angle_deg": -114.2376443406943,
+        "snr": 175.24364181924457,
+        "magnitude_percent": 0.22778915594431925
+      }
+    ],
+    "retained": [
+      0,
+      3,
+      4
+    ],
+    "direction": [
+      -0.413480131708688,
+      -0.910513141411021
+    ],
+    "direction_deg": -114.4236395451443,
+    "median_spread_deg": 0.18599520445104334,
+    "noise_percent": 0.0012998426281238373
+  },
+  "prediction": "aluminum",
+  "reasons": [],
+  "nearest": "aluminum",
+  "distances": [
+    {
+      "material": "aluminum",
+      "stage": "rx_aluminum_parallel_01",
+      "angle_deg": 0.2476287809177318
+    },
+    {
+      "material": "gold_ring",
+      "stage": "rx_ring_parallel_01",
+      "angle_deg": 17.97399382625738
+    },
+    {
+      "material": "steel_plate",
+      "stage": "rx_steel_plate_parallel_01",
+      "angle_deg": 30.99840945295313
+    },
+    {
+      "material": "copper",
+      "stage": "rx_copper_parallel_01",
+      "angle_deg": 51.596524404940006
+    }
+  ],
+  "margin_deg": 17.726365045339648,
+  "lobe_agreement": 1.0,
+  "lobe_votes": [
+    "aluminum",
+    "aluminum",
+    "aluminum"
+  ],
+  "warning": "Object-template match, not validated general ferrous/nonferrous identification."
+}

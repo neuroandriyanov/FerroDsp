@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "tool": "SigmaStudio 4.7",
+  "operation": "layout only; Link Compile Connect; no download or EEPROM write",
+  "source_project": "experiments/2026-11-09-phase-tracking/FerroDSP_phase_tracking.dspproj",
+  "source_project_sha256": "2cb4abc780c64480f223db41b272b2d23c464b192086d2fe1fe774e306fc09dd",
+  "published_project_sha256": "705015faaa4ce53ae75366cd484ac1c58fecb6df0609117d1cd1e9b1fd212863",
+  "block_count": 176,
+  "block_rectangle_overlaps": [],
+  "connections_unchanged": true,
+  "audited_control_properties_unchanged": true,
+  "compiled_files_equal_to_fresh_source_compile": {
+    "Program.bin": true,
+    "Program.dat": true,
+    "DMem0.dat": true,
+    "DMem1.dat": true,
+    "PMem.dat": true,
+    "ParamAddress.dat": true
+  },
+  "compiled_sha256": {
+    "Program.bin": "425cc1613576e669474f9bc2c8bbd159ff147e8343600240d2218f0e07cbb4b7",
+    "Program.dat": "036f99c0ee084e566a2ea82c49f5a5f3c36ee1aee2989b6b84b9795ad0c6b78b",
+    "DMem0.dat": "7041c1151b4fcea10ea66ca11932a0cbe635e56d67169954b951efd68781b9dc",
+    "DMem1.dat": "f3dd26766c0b1eb667da8b6eb36433dff6533b5563d4ed548396a43d13dc8b51",
+    "PMem.dat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ParamAddress.dat": "0a0e06d41f0248fd4ccb7491af91bfb0c87d544a17b4c6916b229b610668fc85"
+  },
+  "compile_errors": 0,
+  "compile_warnings": 0
+}

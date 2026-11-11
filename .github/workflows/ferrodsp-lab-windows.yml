@@ -1,0 +1,37 @@
+name: FerroDSP Lab Windows portable
+on:
+  workflow_dispatch:
+  push:
+    paths: ['pc_app/**', '.github/workflows/ferrodsp-lab-windows.yml']
+  pull_request:
+    paths: ['pc_app/**', '.github/workflows/ferrodsp-lab-windows.yml']
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Install isolated build dependencies
+        shell: pwsh
+        run: |
+          python -m venv pc_app/.venv
+          pc_app/.venv/Scripts/python.exe -m pip install -r pc_app/requirements-build.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Test, build and check EXE
+        shell: pwsh
+        run: pc_app/.venv/Scripts/python.exe pc_app/build_portable.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FerroDSP-Lab-windows-x64
+          path: |
+            pc_app/dist/*.zip
+            pc_app/dist/*.sha256
+            pc_app/dist/*-self-test.json
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,117 @@
+{
+  "protocol": "ferrodsp-am-iq-v1",
+  "calibration_sha256": "705c6054e50cd6679e466ffa2eca123c6f8db87412e915328811b5c688da09a1",
+  "project_sha256": "c9ba01a18bae887775523b86cb778bd4227fc6dc721949c4f02284417be21bdf",
+  "pulse": {
+    "plateau_frames": 396,
+    "detected_alternating_plateaus": 20,
+    "expected_plateaus": 20,
+    "exclusion_s": 0.1,
+    "max_abs_bias": 8.973062820759322e-07,
+    "rmse_iq": [
+      8.732951114253388e-07,
+      9.286303759454363e-07,
+      8.579960353644789e-07,
+      8.535908306884294e-07,
+      5.781845947052739e-07,
+      5.701066495878665e-07,
+      2.812125614413627e-07,
+      2.765759170905527e-07
+    ],
+    "inactive_channel_max_rms": 9.286303759454363e-07,
+    "note": "Errors use settled plateaus only; startup and 100 ms around transitions excluded."
+  },
+  "backgrounds": {
+    "live-background-01": {
+      "duration_s": 20.0,
+      "callback_flags": [],
+      "clipped_samples": [
+        0,
+        0
+      ],
+      "valid_frames": 1948,
+      "total_frames": 1997,
+      "invalid_after_first_second": 0,
+      "relative_to_coil_phase_mean_deg": [
+        60.86823011481305,
+        -63.840896468226276,
+        0.0,
+        -119.50858931324208
+      ],
+      "relative_to_coil_phase_std_deg": [
+        0.0045043469279613625,
+        0.003551272188318101,
+        0.0,
+        0.0031238352119724385
+      ],
+      "normalized_amplitude_mean": [
+        3.535160884630605,
+        3.0674216526694598,
+        1.0,
+        0.6470730430085626
+      ],
+      "usbi_overlap_samples": 45,
+      "optical_minus_usbi_mean_iq": [
+        -2.070000914303205e-06,
+        -2.624869526644813e-06,
+        5.43818615014735e-07,
+        6.641146097080552e-07,
+        1.402335019703993e-07,
+        2.7773308804157626e-07,
+        1.8030295623194803e-07,
+        -9.81454735971693e-09
+      ],
+      "max_abs_mean_difference": 2.624869526644813e-06,
+      "note": "USBi comparison is overlapping means, not sample-aligned ground truth; reference is uncalibrated coil voltage."
+    },
+    "live-background-final": {
+      "duration_s": 60.0,
+      "callback_flags": [],
+      "clipped_samples": [
+        0,
+        0
+      ],
+      "valid_frames": 5825,
+      "total_frames": 5997,
+      "invalid_after_first_second": 123,
+      "relative_to_coil_phase_mean_deg": [
+        60.99021781199893,
+        -63.75222027799562,
+        0.0,
+        -119.45627668965346
+      ],
+      "relative_to_coil_phase_std_deg": [
+        0.001829754911986759,
+        0.0017105694545492991,
+        0.0,
+        0.0019447878329354445
+      ],
+      "normalized_amplitude_mean": [
+        3.539559967241235,
+        3.0773439700720373,
+        1.0,
+        0.6479654657889939
+      ],
+      "usbi_overlap_samples": 47,
+      "optical_minus_usbi_mean_iq": [
+        1.072609302765759e-06,
+        9.271755119187597e-07,
+        2.690393447087047e-06,
+        3.9086829202450435e-07,
+        3.62510461347082e-07,
+        4.517590429173324e-07,
+        3.105861374405605e-07,
+        2.9661590627595713e-07
+      ],
+      "max_abs_mean_difference": 2.690393447087047e-06,
+      "note": "USBi comparison is overlapping means, not sample-aligned ground truth; reference is uncalibrated coil voltage."
+    }
+  },
+  "filter_coefficients_identical": true,
+  "tx_db": -18.00000146465276,
+  "limitations": [
+    "Transport error is not metal identification accuracy.",
+    "60 seconds of background do not prove long-term continuity.",
+    "No full-band ADC waveform or ADC clipping indicator in this protocol."
+  ]
+}
