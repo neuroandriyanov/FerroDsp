@@ -4,22 +4,16 @@
   "targetLanguage": "en",
   "entries": [
     {
-      "source": "NOTICE.md",
-      "target": "NOTICE.en.md",
-      "sourceSha256": "2f435c7c68a8db9f345de7645d80a900e3c7764e9646e2b11fe0e6c3524e730e",
-      "targetSha256": "d7d0fcd73300b06d5dabbca1950990d82abecca68d4963814974e1305372ee55"
+      "source": "сигма_проект/README.md",
+      "target": "сигма_проект/README.en.md",
+      "sourceSha256": "2516c2277895cba3d948369bfcf7da8994c4cf3b474f6dadacd3540b82921045",
+      "targetSha256": "cbdc6214ff464a0b99523e7c90467f02a5444d8f86f3764d090ee009d8953f1b"
     },
     {
-      "source": "README.md",
-      "target": "README.en.md",
-      "sourceSha256": "22046547a6802a98509f81bad51824a7ff05a92c2f929c4050ea84d83948f1c4",
-      "targetSha256": "d64c66b4276069463cae181f5618262fb8bd21eb99d826b50fc7b9ce967a0e51"
-    },
-    {
-      "source": "docs/TRANSLATIONS.md",
-      "target": "docs/TRANSLATIONS.en.md",
-      "sourceSha256": "772001fe5a17e25f41a2da1768dbfb378e65590fc14057cce9f5cc3af7261230",
-      "targetSha256": "cc2bf11ce40ae267d133d3ca5b8ce6085860ebc7cba5dc6792d20e467504fd97"
+      "source": "схема_плата/схема.pdf",
+      "target": "docs/HARDWARE-ANNOTATIONS.en.md",
+      "sourceSha256": "fd36036453bea0517ebe2ab444bb6b699c6ff039a2ab377eefdb9ea65063678a",
+      "targetSha256": "9adeb95dab54c13284f147b324e320dd0748a6da86c84160977a6828a9fda4a0"
     },
     {
       "source": "схема_плата/specificationsmd.xlsx",
@@ -34,10 +28,34 @@
       "targetSha256": "eacbf711bd0a4cfddb87eb1b605d4b1dbeff117f272dad4914bac12dd81ef5c5"
     },
     {
-      "source": "схема_плата/схема.pdf",
-      "target": "docs/HARDWARE-ANNOTATIONS.en.md",
-      "sourceSha256": "fd36036453bea0517ebe2ab444bb6b699c6ff039a2ab377eefdb9ea65063678a",
-      "targetSha256": "9adeb95dab54c13284f147b324e320dd0748a6da86c84160977a6828a9fda4a0"
+      "source": "docs/measurements/2026-11-10_11/FerroDSP-bench-2026-11-10_11.ru.pdf",
+      "target": "docs/measurements/2026-11-10_11/FerroDSP-bench-2026-11-10_11.en.pdf",
+      "sourceSha256": "1d186adede5c164b104a5828e76969db26496cf27a3eb736fc629587b0d3d1a5",
+      "targetSha256": "1d1bf2bd20caa2493e486f87878c859dc8c28a99287606ffd423ef1a0a87b703"
+    },
+    {
+      "source": "docs/measurements/2026-11-10_11/README.md",
+      "target": "docs/measurements/2026-11-10_11/README.en.md",
+      "sourceSha256": "4c22cad6caf0fdaeaf398b11b538188837cdc5174bfa84cc463186bef66d7261",
+      "targetSha256": "6f61157087c08e4b28a0393484b6c23e1000a2571e89295742d911c5e100eda9"
+    },
+    {
+      "source": "docs/TRANSLATIONS.md",
+      "target": "docs/TRANSLATIONS.en.md",
+      "sourceSha256": "772001fe5a17e25f41a2da1768dbfb378e65590fc14057cce9f5cc3af7261230",
+      "targetSha256": "cc2bf11ce40ae267d133d3ca5b8ce6085860ebc7cba5dc6792d20e467504fd97"
+    },
+    {
+      "source": "NOTICE.md",
+      "target": "NOTICE.en.md",
+      "sourceSha256": "2f435c7c68a8db9f345de7645d80a900e3c7764e9646e2b11fe0e6c3524e730e",
+      "targetSha256": "d7d0fcd73300b06d5dabbca1950990d82abecca68d4963814974e1305372ee55"
+    },
+    {
+      "source": "README.md",
+      "target": "README.en.md",
+      "sourceSha256": "3ce1e35505ee4009ad7f67613e5e2357493e34fc9d2359342ca32ae8c559a71f",
+      "targetSha256": "1b6a397f9798fea7efceb6cb5894941ab760f8586de72d01bbca27c9a1291070"
     }
   ]
 }

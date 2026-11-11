@@ -1,0 +1,128 @@
+{
+  "stage": "blind_rx_03",
+  "created": "2026-11-10T16:54:16.100546+00:00",
+  "model_sha256": "4e1574d14bef13d1d2f835601d2ea4e7470806a3d9d587eab850b2c855206cd2",
+  "wav_sha256": "7ecb4f1704acc088dd351e3a46e2095e3a94f603d0260815b39fb4141c6d3dcd",
+  "orientation": "parallel",
+  "features": {
+    "lobes": [
+      {
+        "t_s": 71.93,
+        "vector": [
+          -0.016601587181031736,
+          -0.01917888744617346
+        ],
+        "unit": [
+          -0.6544775676976704,
+          -0.7560814198090978
+        ],
+        "angle_deg": -130.88004823374575,
+        "snr": 26.18223901526511,
+        "magnitude_percent": 0.03374021950308459
+      },
+      {
+        "t_s": 72.61,
+        "vector": [
+          -0.023650992488352604,
+          -0.020575889201894407
+        ],
+        "unit": [
+          -0.7544505700987051,
+          -0.6563568673197065
+        ],
+        "angle_deg": -138.97738493291763,
+        "snr": 34.506681048923426,
+        "magnitude_percent": 0.04446766345058578
+      },
+      {
+        "t_s": 74.25,
+        "vector": [
+          0.0391902543280685,
+          0.03000359055235207
+        ],
+        "unit": [
+          0.7940197142550773,
+          0.6078920079868508
+        ],
+        "angle_deg": 37.43723699662253,
+        "snr": 48.17014370378545,
+        "magnitude_percent": 0.062075333630300385
+      },
+      {
+        "t_s": 74.83,
+        "vector": [
+          -0.030208413339468575,
+          -0.03153036624266548
+        ],
+        "unit": [
+          -0.6918076159507354,
+          -0.7220818669046881
+        ],
+        "angle_deg": -133.7733682065376,
+        "snr": 44.72017477218108,
+        "magnitude_percent": 0.05762946828764245
+      },
+      {
+        "t_s": 75.75,
+        "vector": [
+          -0.01585080419379297,
+          -0.01931989269933905
+        ],
+        "unit": [
+          -0.6342827602106081,
+          -0.7731011448055243
+        ],
+        "angle_deg": -129.36680841015507,
+        "snr": 25.86381565397749,
+        "magnitude_percent": 0.033329877434994444
+      }
+    ],
+    "retained": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "direction": [
+      -0.6733572167336075,
+      -0.7393172922857747
+    ],
+    "direction_deg": -132.32670822014168,
+    "median_spread_deg": 2.203279898191323,
+    "noise_percent": 0.0012886682259455704
+  },
+  "prediction": "gold_ring",
+  "reasons": [],
+  "nearest": "gold_ring",
+  "distances": [
+    {
+      "material": "gold_ring",
+      "stage": "rx_ring_parallel_01",
+      "angle_deg": 0.07092515125365674
+    },
+    {
+      "material": "steel_plate",
+      "stage": "rx_steel_plate_parallel_01",
+      "angle_deg": 13.095340777955741
+    },
+    {
+      "material": "aluminum",
+      "stage": "rx_aluminum_parallel_01",
+      "angle_deg": 17.655439894079905
+    },
+    {
+      "material": "copper",
+      "stage": "rx_copper_parallel_01",
+      "angle_deg": 33.69345572994261
+    }
+  ],
+  "margin_deg": 13.024415626702083,
+  "lobe_agreement": 0.75,
+  "lobe_votes": [
+    "gold_ring",
+    "steel_plate",
+    "gold_ring",
+    "gold_ring"
+  ],
+  "warning": "Object-template match, not validated general ferrous/nonferrous identification."
+}

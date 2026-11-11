@@ -1,0 +1,112 @@
+{
+  "stage": "blind_rx_02",
+  "created": "2026-11-10T16:50:04.415603+00:00",
+  "model_sha256": "4e1574d14bef13d1d2f835601d2ea4e7470806a3d9d587eab850b2c855206cd2",
+  "wav_sha256": "7d343fe5c03e59f6f017088c0950a2e1164b50c98b5da13d7f12575253884310",
+  "orientation": "parallel",
+  "features": {
+    "lobes": [
+      {
+        "t_s": 64.11,
+        "vector": [
+          -0.8382627968993781,
+          -0.20219955632523023
+        ],
+        "unit": [
+          -0.9721191592775742,
+          -0.2344873987349052
+        ],
+        "angle_deg": -166.43859138055245,
+        "snr": 894.9783108412421,
+        "magnitude_percent": 1.1205562803302374
+      },
+      {
+        "t_s": 65.37,
+        "vector": [
+          -0.4594200936616156,
+          -0.11348954159609703
+        ],
+        "unit": [
+          -0.970817628555521,
+          -0.23981895689422558
+        ],
+        "angle_deg": -166.12414469763735,
+        "snr": 492.7604887469417,
+        "magnitude_percent": 0.6169600466015428
+      },
+      {
+        "t_s": 66.63,
+        "vector": [
+          -0.3051662704492605,
+          -0.07334958974532521
+        ],
+        "unit": [
+          -0.972307940263616,
+          -0.23370337888084652
+        ],
+        "angle_deg": -166.4847962768617,
+        "snr": 320.97347785622935,
+        "magnitude_percent": 0.40187437178579505
+      },
+      {
+        "t_s": 67.47,
+        "vector": [
+          -0.01688984229228924,
+          -0.006408364050785746
+        ],
+        "unit": [
+          -0.9349631562897761,
+          -0.3547448327751366
+        ],
+        "angle_deg": -159.22219341455616,
+        "snr": 16.83842469649513,
+        "magnitude_percent": 0.02108252492374914
+      }
+    ],
+    "retained": [
+      0,
+      1,
+      2
+    ],
+    "direction": [
+      -0.9721191592775742,
+      -0.2344873987349052
+    ],
+    "direction_deg": -166.43859138055245,
+    "median_spread_deg": 0.04620489630763638,
+    "noise_percent": 0.0012520485320777902
+  },
+  "prediction": "copper",
+  "reasons": [],
+  "nearest": "copper",
+  "distances": [
+    {
+      "material": "copper",
+      "stage": "rx_copper_parallel_01",
+      "angle_deg": 0.4184274304668982
+    },
+    {
+      "material": "steel_plate",
+      "stage": "rx_steel_plate_parallel_01",
+      "angle_deg": 21.01654238245501
+    },
+    {
+      "material": "gold_ring",
+      "stage": "rx_ring_parallel_01",
+      "angle_deg": 34.04095800915075
+    },
+    {
+      "material": "aluminum",
+      "stage": "rx_aluminum_parallel_01",
+      "angle_deg": 51.76732305449069
+    }
+  ],
+  "margin_deg": 20.598114951988112,
+  "lobe_agreement": 1.0,
+  "lobe_votes": [
+    "copper",
+    "copper",
+    "copper"
+  ],
+  "warning": "Object-template match, not validated general ferrous/nonferrous identification."
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "tool": "SigmaStudio 4.7",
+  "operation": "layout only; Link Compile Connect; no download or EEPROM write",
+  "source_project": "experiments/2026-11-10-pc-stream/checkpoint-before-recovery.dspproj",
+  "source_project_sha256": "220d668c0cbc18544a2f6e61b5df226f7765ad704158f02c9a1df10a6a460fa9",
+  "published_project_sha256": "9d235be89765f173ab67d16e337c4dad6440522d4d070b6fe18f2632e975dbd5",
+  "block_count": 111,
+  "block_rectangle_overlaps": [],
+  "connections_unchanged": true,
+  "audited_control_properties_unchanged": true,
+  "compiled_files_equal_to_fresh_source_compile": {
+    "Program.bin": true,
+    "Program.dat": true,
+    "DMem0.dat": true,
+    "DMem1.dat": true,
+    "PMem.dat": true,
+    "ParamAddress.dat": true
+  },
+  "compiled_sha256": {
+    "Program.bin": "32a59a19bfd66f6448082e46d83956755469533f1b2bff9065b9c1ffa189ff7c",
+    "Program.dat": "d67b60363b6d4478e29096fd69f4961ba74df3d3c32b1f5ccc1c525187d1ac2a",
+    "DMem0.dat": "a5682d539613d059410d220d47d8d9bb45bb1ed28f8ce4b337940f7cef2f6ce1",
+    "DMem1.dat": "54838c436ff36c2ebe33aecf8b8992b312ad78a802d1f20de5b87b1e6ee8006b",
+    "PMem.dat": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ParamAddress.dat": "8f2092b5f20274e2db0e496a77d56c8cb85dc59e53fd12dec730692c1e6c5706"
+  },
+  "compile_errors": 0,
+  "compile_warnings": 0
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "blind_rx_01",
+    "material": "aluminium",
+    "orientation": "perpendicular",
+    "distance_mm": "200-250",
+    "prediction": "aluminium",
+    "orientation_protocol_match": false
+  },
+  {
+    "stage": "blind_rx_02",
+    "material": "copper",
+    "orientation": "parallel",
+    "distance_mm": "200",
+    "prediction": "copper",
+    "orientation_protocol_match": true
+  },
+  {
+    "stage": "blind_rx_03",
+    "material": "gold_ring",
+    "orientation": "perpendicular",
+    "distance_mm": "200",
+    "prediction": "ring",
+    "orientation_protocol_match": false
+  },
+  {
+    "stage": "blind_unknown_04",
+    "material": "magnetic_caliper",
+    "orientation": "parallel",
+    "distance_mm": "250",
+    "prediction": "uncertain",
+    "orientation_protocol_match": true
+  }
+]

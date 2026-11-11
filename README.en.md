@@ -18,6 +18,9 @@ FerroDSP uses an audio DSP to investigate search-head signals. Custom electronic
 - [Block diagram](#block-diagram)
 - [Architecture and capabilities](#architecture-and-capabilities)
 - [FerroDSP coils — DD construction](#ferrodsp-coils--dd-construction)
+- [PC laboratory](#ferrodsp-lab--pc-laboratory)
+- [Bench measurements](#bench-measurements-1011-november-2026)
+- [Two working SigmaStudio projects](#two-working-sigmastudio-projects)
 - [Prototype photographs](#prototype-photographs)
 - [Project materials](#project-materials)
 - [Continuing development with AI](#continuing-development-with-ai)
@@ -126,7 +129,7 @@ This is a developed basis for adjustment and measurement. Actual noise, drift an
 
 In the electrical schematic, the processor's S/PDIF output connects through a buffer to an optical transmitter. The saved compiler report includes S/PDIF output blocks.
 
-**The design and DSP project provide for this interface; the available materials contain no results verifying physical optical transmission.** After checking it with a compatible receiver, it may be used to output selected signals, including for recording and analysis. Data content depends on the DSP configuration.
+Experiments on 10–11 November 2026 verified optical capture through a Sound Blaster G3. A new project transports I/Q from four inputs over two S/PDIF channels: complex envelopes, not four full-band ADC streams. [FerroDSP Lab](pc_app/QUICKSTART.en.md) displays the signals alongside a D415 depth camera and records combined trials. The [measurement report](docs/measurements/2026-11-10_11/README.en.md) includes observed frame gaps; hardware synchronization between camera and audio is not claimed.
 
 ### DSP resource margin
 
@@ -171,7 +174,7 @@ C = C33 + C34 = 136 nF
 f₀ = 1 / (2π√(LC)) ≈ 15 384 Hz ≈ 15.38 kHz
 ```
 
-The calculation assumes no additional **C30** capacitance. This is a calculated resonant frequency; the exact measured operating frequency has not yet been supplied.
+The calculation assumes no additional **C30** capacitance. This is a calculated resonant frequency; experiments on 10–11 November used a 15.2 kHz generator. Selecting this frequency does not replace a separate measurement of loaded resonance and quality factor.
 
 The author observed **about 120 V peak-to-peak (Vpp)** across TX at resonance. This is the voltage swing, not an RMS value.
 
@@ -186,7 +189,59 @@ Correct balancing affects sensitivity and discrimination — distinguishing meta
 
 Before connection, account for the oscilloscope channels' common ground: the RX center tap must permit connection to instrument ground. TX voltage measurement requires a probe and connection method rated for that voltage. Connecting common ground to an arbitrary transmit-circuit point can short it to earth.
 
-This is an account of the author's practice. Quantitative adjustment criteria and sensitivity/discrimination test results have not yet been documented; opposite-phase signals alone do not establish detection performance.
+This is an account of the author's practice. Initial bench observations are documented in the [report](docs/measurements/2026-11-10_11/README.en.md); quantitative sensitivity and discrimination criteria remain unverified, and opposite-phase signals alone do not establish detection performance.
+
+## FerroDSP Lab — PC laboratory
+
+[Download portable Windows x64](https://github.com/neuroandriyanov/FerroDsp/releases/tag/lab-v0.1.0-preview.1) · [Instructions](pc_app/QUICKSTART.en.md) · [Source code](pc_app/) · [MP4 demonstration](https://media.neuroandriyanov.com/demonstration_ferrodsp_lab.mp4)
+
+FerroDSP Lab combines D415 color and depth with phase, amplitude and distance plots. It provides adjustable image overlays, camera and capture settings, channel and scale selection, a target table and joint recording. Analysis data includes PCM, numeric Z16 depth, RGB, I/Q, timestamps and quality masks. Demonstration exports are H.264 MP4 files with the target name and plots on the right.
+
+![FerroDSP Lab window: camera preview, signals, distance and target table](фото/screenS.png)
+
+*Working-interface screenshot supplied by the author. Error counters are cumulative for the session; each recording is assessed using its own log and masks. The current application UI is Russian.*
+
+The portable ZIP includes Python, Qt, the RealSense SDK, libraries and FFmpeg: extract the entire archive and run `FerroDSP-Lab.exe`. These components do not require separate installation. Windows 10/11 x64 and device drivers are required. Settings and recordings go into `UserData`; calibrate camera geometry for your own setup. The application does not modify DSP or EEPROM; a metal classifier is not implemented yet.
+
+### Laboratory equipment
+
+| Purpose | Device and manufacturer | Trial configuration |
+| --- | --- | --- |
+| Color and depth | **Intel RealSense D415**, active stereo camera | USB 3, 640 × 480; ring recording on 11 November at 15 fps |
+| Optical audio capture | **Creative Sound Blaster G3**, Creative Technology | S/PDIF IN, WASAPI exclusive, 96 kHz, stereo PCM24 |
+| In-coil processing | **ADAU1452**, Analog Devices | SigmaStudio 4.7, DSP 96 kHz, 15.2 kHz excitation |
+| Analog converters | **PCM1808 × 2, PCM5102A**, Texas Instruments | Two RX and two transmit-path signals |
+| Transmit amplifier | **TDA2050**, STMicroelectronics | PC Stream digital generator level −18 dB |
+| DSP configuration | **USBi**, SigmaStudio interface | Manufacturer of the particular adapter unconfirmed |
+
+No separate video capture card is required: the D415 sends images over USB. PCM24 denotes the recording format; the G3 input's effective resolution was not measured. Manufacturer documentation and clocking notes are included in the [measurement description](docs/measurements/2026-11-10_11/README.en.md#equipment-and-sources).
+
+## Bench measurements: 10–11 November 2026
+
+[English PDF report](docs/measurements/2026-11-10_11/FerroDSP-bench-2026-11-10_11.en.pdf) · [Methods, numeric data and plotting script](docs/measurements/2026-11-10_11/README.en.md) · [Russian report](docs/measurements/2026-11-10_11/FerroDSP-bench-2026-11-10_11.ru.pdf)
+
+The coil is horizontal, approximately 650 mm above a wooden floor over reinforced concrete. Copper and aluminium foil, an M4 × 40 mm screw, a gold ring and a steel plate were tested in different orientations. Distances on 10 November were operator estimates; these trials do not establish maximum detection depth.
+
+![Native balance-detector response ranges](docs/measurements/2026-11-10_11/figures/phase-ranges.en.png)
+
+*The native T22 output is in relative units, not degrees. ∥ / ⊥ indicate the target plane, or the screw axis, relative to the coil plane. Segments show minima and maxima, not confidence intervals.*
+
+![Gold ring recording: phase, amplitude and distance on a common timeline](docs/measurements/2026-11-10_11/figures/ring-timeline.en.png)
+
+*11 November: 21 × 3 mm ring, plane parallel to the coil; 6715 I/Q sets, 99.4937% valid, 999 camera frames. Distance refers to the nearest visible foreground surface, which may be a hand or holder. Physical camera-to-audio latency has not been calibrated.*
+
+RX0/RX1 interchannel phase did not provide a universal sign rule to separate steel from nonferrous metals. All four complex inputs, including the transmit reference, are therefore retained for the next stage. The report includes limitations and rejected intervals; classification, size and depth accuracy still require testing with unseen objects.
+
+## Two working SigmaStudio projects
+
+[Operating modes and build verification](сигма_проект/README.en.md)
+
+| Project | Purpose | Saved settings |
+| --- | --- | --- |
+| [FerroDSP Phase Tracking](сигма_проект/FerroDSP_Phase_Tracking/FerroDSP_Phase_Tracking.dspproj) | Initial balancing and slow phase tracking around zero | 15.2 kHz; TX −30 dB; native T22 and audio path |
+| [FerroDSP PC Stream](сигма_проект/FerroDSP_PC_Stream/FerroDSP_PC_Stream.dspproj) | Four complex channels to FerroDSP Lab over S/PDIF | 15.2 kHz; TX −18 dB; `PC_Mode=1`, `ferrodsp-am-iq-v1`; audio output muted |
+
+Blocks in both projects are arranged by functional signal paths. These are alternative configurations: the Phase Tracking stream is incompatible with the PC Stream decoder. In the second project, balancing and feature research run on the PC; transmitted values are complex envelopes, not four full-bandwidth ADC streams.
 
 ## Prototype photographs
 
@@ -271,7 +326,7 @@ Reference: [local projects and chats in Codex](https://learn.chatgpt.com/docs/pr
 | SigmaStudio source project and a successful saved build | Detection depth and metal-discrimination accuracy |
 | Schematic and board manufacturing files | Noise, drift, power consumption and battery runtime |
 | Enclosure/former models, winding parameters and the author's balancing method | Complete manufacturing instructions and quantitative balancing criteria |
-| Provisioned optical S/PDIF | Physical transmission to an external receiver |
+| Verified optical capture and FerroDSP Lab with D415 | Resolving frame gaps and validating distance accuracy and time alignment |
 
 The current package does not yet replace a step-by-step assembly, connection, loading and setup guide. Quantitative comparison with other instruments requires tests under identical conditions.
 
@@ -279,7 +334,7 @@ FerroDSP combines custom hardware, adjustable digital processing and materials t
 
 ---
 
-This description is based on **Ferrodsp_v1_exp2**. Resource estimates come from the saved compilation report of **7 February 2026**. Coil parameters and balancing were added on **1 November 2026**, as reported by the author for the particular unit. No hardware measurements were performed while preparing the README.
+The main description is based on **Ferrodsp_v1_exp2**. Resource estimates come from the saved compilation report of **7 February 2026**. Coil parameters and balancing were added on **1 November 2026**, as reported by the author for the particular unit. The optical-output section was updated on **11 November 2026** using hardware experiments; their conditions and limitations are preserved in the reports.
 
 ## Licenses
 

@@ -1,0 +1,152 @@
+[
+  {
+    "path": "experiments/2026-11-10-metal-targets/comparison.csv",
+    "sha256": "a3777375de2613b7e8c60491b924859f447e9d6cc749c082d70cdff1c877ddec",
+    "bytes": 3546
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/summary.json",
+    "sha256": "4e167880613325427276a2ed2ed883f346b0e4bb16d620ad7f6222dafab6aaf4",
+    "bytes": 44260
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_copper_parallel_01-features.npz",
+    "sha256": "18a7730f673c9e0690671b3dba539f285078b2b71c55bf7a8772691b4a82f143",
+    "bytes": 265805
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_copper_perpendicular_01-features.npz",
+    "sha256": "e435a841f74f03a91b5f5f1f276f8fee1ba2f71e2e48453fe50e2a395d4a87b9",
+    "bytes": 275342
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_aluminum_parallel_01-features.npz",
+    "sha256": "41f119a725e836705edf0015c6188b06d5b6a592edc113fafca3d6e1340d9603",
+    "bytes": 180244
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_aluminum_perpendicular_01-features.npz",
+    "sha256": "295122a5e12cb7a08c6de693a76d421da466cc643c1cbee0bae2811f3b00797e",
+    "bytes": 191318
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_ring_parallel_01-features.npz",
+    "sha256": "2d2157d00dfd7269f7b9f27d6c926d9832323cbd68dd5748ce7bcafb81ea2669",
+    "bytes": 185440
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_ring_perpendicular_01-features.npz",
+    "sha256": "7335a56e0ac9c9f542130316e6c53434200a6a667f6396ab4d4dca3e688be788",
+    "bytes": 215988
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_steel_plate_parallel_01-features.npz",
+    "sha256": "75b37d6e7a8625f0fc54371d067adbe909a8e803823ca3819183a7d867fcc6f3",
+    "bytes": 299021
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/rx_steel_plate_perpendicular_01-features.npz",
+    "sha256": "738017135689bd941e49f1a301135e73358e845fed6cb119b94149c692311dd2",
+    "bytes": 258213
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_copper_parallel_01-features.npz",
+    "sha256": "754ac9fc9b558c63f9cd12e9ee46ec2e444948d8d9e335467aa20b9fe46aa09c",
+    "bytes": 212347
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_copper_perpendicular_01-features.npz",
+    "sha256": "3905b5e82f191c5ce3867a0076e677f17d030018962f64e7544ea685ee68749e",
+    "bytes": 176397
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_aluminum_parallel_01-features.npz",
+    "sha256": "601c47f2027df57d0e0d641611420c6bbefa007e78b4a18d1a7e8757aa23ea20",
+    "bytes": 182058
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_aluminum_perpendicular_01-features.npz",
+    "sha256": "62fb800dd2043da3e1b143dfea82b53084979adf5ee670c9d35440b8389a1c19",
+    "bytes": 195708
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_ring_parallel_01-features.npz",
+    "sha256": "cd7edc1dea8f3dd2817abdb092319be8cc542a272c62e27ab13561682a461088",
+    "bytes": 195888
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_ring_perpendicular_01-features.npz",
+    "sha256": "db2f35d8bb24d025c817c89db88a39598c91cf5d8d3b39c2f4fda7e463b5bf34",
+    "bytes": 169200
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_steel_plate_parallel_01-features.npz",
+    "sha256": "ecc65df5915f7f0bc5f66a322b7ccc0ef25f266b337304f7a6e1b1c588eeb23c",
+    "bytes": 172592
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/analysis/tx_steel_plate_perpendicular_01-features.npz",
+    "sha256": "078a45804f144cace34b9cf15f1bb1873ad6f80571e47b8f301dd7717befcd26",
+    "bytes": 259960
+  },
+  {
+    "path": "experiments/2026-11-10-pc-stream/transport-validation.json",
+    "sha256": "47304e59a94284265adc05e568a1ac353a8bd9680a8d39ca6c77cdc1ef568ac4",
+    "bytes": 3646
+  },
+  {
+    "path": "experiments/2026-11-10-pc-stream/live-background-final-iq.npz",
+    "sha256": "0f69568f1168c8e254d47ab247f9242813f0b9acbd5913d43ffbc7bffbcf30d8",
+    "bytes": 384250
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/recordings/blind_rx_01/prediction-before-reveal.json",
+    "sha256": "5722235c17e240114507989c7596bc8ac36a17136c27660f556435444bbcd795",
+    "bytes": 3241
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/recordings/blind_rx_02/prediction-before-reveal.json",
+    "sha256": "c8ac2845ff1ac10f1e331e90d19ab7ef77c164f6106b0edebfdb2916c78323a5",
+    "bytes": 2874
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/recordings/blind_rx_03/prediction-before-reveal.json",
+    "sha256": "5e9d2c686b44237aba7becf200242bb1dda4ca13f4e2bc5e7455764efc953d8f",
+    "bytes": 3286
+  },
+  {
+    "path": "experiments/2026-11-10-raw-metals/recordings/blind_unknown_04/prediction-before-reveal.json",
+    "sha256": "cbc9176b943ec507eef2a1cbc6785d8d0e47fde018f31bf1a37f22a528ebd58a",
+    "bytes": 4706
+  },
+  {
+    "path": "pc_app/recordings/20261111-210151-e0286216/session.json",
+    "sha256": "69ac338ab8cd952eec9e7c62fb1b469236352b7ff1eb9c967b9e3249a316520b",
+    "bytes": 21643
+  },
+  {
+    "path": "pc_app/recordings/20261111-210151-e0286216/manifest.json",
+    "sha256": "d5aebfafbaf6d5954452c5503142522bb9d90137d05e70e74478fba170eff3d3",
+    "bytes": 2426
+  },
+  {
+    "path": "pc_app/recordings/20261111-210151-e0286216/analysis.h5",
+    "sha256": "a349a1d4777d57ce341c329a3dde005d2fefa2706a1970b8d1edc9f25d5a5e68",
+    "bytes": 2066499
+  },
+  {
+    "path": "pc_app/recordings/20261111-211036-c74238fe/session.json",
+    "sha256": "78139e0e36d3c239faea0680f21c2fb0f2d89d495f6b80d544a11f04f0c642ab",
+    "bytes": 21579
+  },
+  {
+    "path": "pc_app/recordings/20261111-211036-c74238fe/manifest.json",
+    "sha256": "bb1def87a73d72d74d02c3dcbafc850974feb9bf3cea1843a43b23f074c6c475",
+    "bytes": 2428
+  },
+  {
+    "path": "pc_app/recordings/20261111-211036-c74238fe/analysis.h5",
+    "sha256": "e7bea0fbbce16de9041749bb0693f92299111a3b1e628702ba681db738559ee6",
+    "bytes": 4143817
+  }
+]

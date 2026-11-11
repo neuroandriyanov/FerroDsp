@@ -1,0 +1,1482 @@
+[
+  {
+    "stage": "rx_copper_parallel_01",
+    "source": "rx",
+    "material": "copper",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 95.82,
+    "cue_s": 21.297153,
+    "reply_s": 95.65974,
+    "background_phase_deg": 124.84262123033415,
+    "background_amplitudes": [
+      0.25557566615464555,
+      0.22322490632356634
+    ],
+    "background_phase_noise_deg": 0.0009420651508727029,
+    "background_ratio_noise_percent": 0.002444372585507214,
+    "active_phase_min_max_deg": [
+      -0.27839720449389593,
+      0.020975791637498912
+    ],
+    "active_ratio_min_max_percent": [
+      -1.996208094294291,
+      0.026536879763743085
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -1.4174078128928158,
+        0.04225782680077265
+      ],
+      [
+        -0.07430655823866092,
+        0.591361033872246
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 64.71,
+        "time_from_cue_s": 43.41284699999999,
+        "score": 868.4789038822399,
+        "phase_deg": -0.27839720449389593,
+        "ratio_percent": -1.996208094294291,
+        "amplitude_percent": [
+          -1.4174078128928158,
+          0.591361033872246
+        ],
+        "delta_complex_percent": [
+          -1.997454296423512,
+          -0.47539153081167196
+        ]
+      },
+      {
+        "time_s": 66.71,
+        "time_from_cue_s": 45.41284699999999,
+        "score": 387.1220816001675,
+        "phase_deg": -0.11837840301982071,
+        "ratio_percent": -0.8950325542052546,
+        "amplitude_percent": [
+          -0.664743419638945,
+          0.23298402990429662
+        ],
+        "delta_complex_percent": [
+          -0.8952564816704068,
+          -0.20465717133388894
+        ]
+      },
+      {
+        "time_s": 68.81,
+        "time_from_cue_s": 47.512847,
+        "score": 373.0731593257883,
+        "phase_deg": -0.11072418613869026,
+        "ratio_percent": -0.8654924659073748,
+        "amplitude_percent": [
+          -0.60972364794931,
+          0.2598907675896692
+        ],
+        "delta_complex_percent": [
+          -0.8657066168785749,
+          -0.19133827521891825
+        ]
+      },
+      {
+        "time_s": 70.67,
+        "time_from_cue_s": 49.372847,
+        "score": 93.16265457248106,
+        "phase_deg": -0.015513862167528127,
+        "ratio_percent": -0.22413827025583427,
+        "amplitude_percent": [
+          -0.15110208183654245,
+          0.07304521872051227
+        ],
+        "delta_complex_percent": [
+          -0.2241433888433059,
+          -0.027005975724816625
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00016479999794682954,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_copper_perpendicular_01",
+    "source": "rx",
+    "material": "copper",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 99.12,
+    "cue_s": 50.072099,
+    "reply_s": 87.774467,
+    "background_phase_deg": 124.87131328700183,
+    "background_amplitudes": [
+      0.2555956895683651,
+      0.22348547682781508
+    ],
+    "background_phase_noise_deg": 0.0005092302640506285,
+    "background_ratio_noise_percent": 0.0011295300228530592,
+    "active_phase_min_max_deg": [
+      -0.06471530558816568,
+      0.010038381748392815
+    ],
+    "active_ratio_min_max_percent": [
+      -0.45865236173627677,
+      -0.0002793069753123216
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.35449672818478556,
+        0.029030321431385602
+      ],
+      [
+        -0.08218531130615996,
+        0.10731413838178205
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 64.97,
+        "time_from_cue_s": 14.897900999999997,
+        "score": 45.39719820117997,
+        "phase_deg": -0.00375895550938002,
+        "ratio_percent": -0.05059509021920658,
+        "amplitude_percent": [
+          -0.027302099058163536,
+          0.02346917381184416
+        ],
+        "delta_complex_percent": [
+          -0.05059538228718588,
+          -0.006556884378769946
+        ]
+      },
+      {
+        "time_s": 66.65,
+        "time_from_cue_s": 16.577901000000004,
+        "score": 238.577744164831,
+        "phase_deg": -0.035927742603660134,
+        "ratio_percent": -0.25742781891790084,
+        "amplitude_percent": [
+          -0.18147275926523865,
+          0.07578504907997236
+        ],
+        "delta_complex_percent": [
+          -0.2574499410710465,
+          -0.06252625692947408
+        ]
+      },
+      {
+        "time_s": 68.37,
+        "time_from_cue_s": 18.297901000000003,
+        "score": 117.5507984140272,
+        "phase_deg": -0.016257787172089946,
+        "ratio_percent": -0.12778628282127236,
+        "amplitude_percent": [
+          -0.13499776061290825,
+          -0.006787030004653175
+        ],
+        "delta_complex_percent": [
+          -0.12779096578910723,
+          -0.028334334271852123
+        ]
+      },
+      {
+        "time_s": 69.97,
+        "time_from_cue_s": 19.897900999999997,
+        "score": 425.4784399922173,
+        "phase_deg": -0.06471530558816568,
+        "ratio_percent": -0.45865236173627677,
+        "amplitude_percent": [
+          -0.35449672818478556,
+          0.10731413838178205
+        ],
+        "delta_complex_percent": [
+          -0.4587274268682555,
+          -0.11234240622980006
+        ]
+      },
+      {
+        "time_s": 71.73,
+        "time_from_cue_s": 21.657901000000003,
+        "score": 124.77616654524128,
+        "phase_deg": -0.01297661795679035,
+        "ratio_percent": -0.13796791090063507,
+        "amplitude_percent": [
+          -0.10774065869293606,
+          0.030094191592582482
+        ],
+        "delta_complex_percent": [
+          -0.13797058206256876,
+          -0.02261688201453259
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0001795999978639884,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_aluminum_parallel_01",
+    "source": "rx",
+    "material": "aluminum",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 64.25,
+    "cue_s": 22.781869,
+    "reply_s": 57.065513,
+    "background_phase_deg": 124.88289048359927,
+    "background_amplitudes": [
+      0.2556112506041244,
+      0.2236032416025688
+    ],
+    "background_phase_noise_deg": 0.0006453500549177464,
+    "background_ratio_noise_percent": 0.0009720219409514398,
+    "active_phase_min_max_deg": [
+      -0.2897125509513853,
+      0.009296616775855037
+    ],
+    "active_ratio_min_max_percent": [
+      -0.25770447772674726,
+      0.0031354316935792064
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.6128506532746668,
+        0.030448945197113907
+      ],
+      [
+        -0.3603073338975984,
+        0.0595054159086823
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 37.27,
+        "time_from_cue_s": 14.488131000000003,
+        "score": 521.3651998377351,
+        "phase_deg": -0.2897125509513853,
+        "ratio_percent": -0.25770447772674726,
+        "amplitude_percent": [
+          -0.6128506532746668,
+          -0.3561124732783015
+        ],
+        "delta_complex_percent": [
+          -0.25904364829240073,
+          -0.504268424204893
+        ]
+      },
+      {
+        "time_s": 39.17,
+        "time_from_cue_s": 16.388131,
+        "score": 479.54932720482793,
+        "phase_deg": -0.26595727981605927,
+        "ratio_percent": -0.23835409631378368,
+        "amplitude_percent": [
+          -0.5977365176997004,
+          -0.3603073338975984
+        ],
+        "delta_complex_percent": [
+          -0.23941230663594598,
+          -0.4630859338236418
+        ]
+      },
+      {
+        "time_s": 41.07,
+        "time_from_cue_s": 18.288131,
+        "score": 497.0480336507115,
+        "phase_deg": -0.27267361676460855,
+        "ratio_percent": -0.25446411141321706,
+        "amplitude_percent": [
+          -0.6086394943738966,
+          -0.35595412105573143
+        ],
+        "delta_complex_percent": [
+          -0.2555720954956509,
+          -0.47470943288299644
+        ]
+      },
+      {
+        "time_s": 42.81,
+        "time_from_cue_s": 20.028131000000002,
+        "score": 428.85985781840276,
+        "phase_deg": -0.2353733953917682,
+        "ratio_percent": -0.2192951371355219,
+        "amplitude_percent": [
+          -0.5341641994754611,
+          -0.3126196642983016
+        ],
+        "delta_complex_percent": [
+          -0.22011474416971175,
+          -0.40989009216949246
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00017270000262215035,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_aluminum_perpendicular_01",
+    "source": "rx",
+    "material": "aluminum",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 68.32,
+    "cue_s": 23.497439,
+    "reply_s": 56.283777,
+    "background_phase_deg": 124.89218279045335,
+    "background_amplitudes": [
+      0.25561861669130104,
+      0.22370204779119307
+    ],
+    "background_phase_noise_deg": 0.0006020681988607847,
+    "background_ratio_noise_percent": 0.0010117910057089057,
+    "active_phase_min_max_deg": [
+      -0.46348016902272343,
+      0.007826728875276604
+    ],
+    "active_ratio_min_max_percent": [
+      -0.39360309805332894,
+      0.0019121180240677853
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.9799161892270537,
+        0.029108419281812868
+      ],
+      [
+        -0.5886470951910775,
+        0.051469417936179214
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 35.93,
+        "time_from_cue_s": 12.432561,
+        "score": 862.5232077023256,
+        "phase_deg": -0.46348016902272343,
+        "ratio_percent": -0.39360309805332894,
+        "amplitude_percent": [
+          -0.9799161892270537,
+          -0.5886470951910775
+        ],
+        "delta_complex_percent": [
+          -0.3970080464011032,
+          -0.8055913475798281
+        ]
+      },
+      {
+        "time_s": 37.89,
+        "time_from_cue_s": 14.392561,
+        "score": 273.0520200663962,
+        "phase_deg": -0.14520842109940316,
+        "ratio_percent": -0.12952632571539624,
+        "amplitude_percent": [
+          -0.3455564660593082,
+          -0.21441807536260712
+        ],
+        "delta_complex_percent": [
+          -0.12983553264168446,
+          -0.2530952688307878
+        ]
+      },
+      {
+        "time_s": 39.55,
+        "time_from_cue_s": 16.052560999999997,
+        "score": 414.1047277907273,
+        "phase_deg": -0.218694298494033,
+        "ratio_percent": -0.20119275040141296,
+        "amplitude_percent": [
+          -0.4885373442086615,
+          -0.2868349214248508
+        ],
+        "delta_complex_percent": [
+          -0.2019254628144981,
+          -0.3809256344830396
+        ]
+      },
+      {
+        "time_s": 41.31,
+        "time_from_cue_s": 17.812561000000002,
+        "score": 291.544369942421,
+        "phase_deg": -0.1502576850378614,
+        "ratio_percent": -0.15248643413626967,
+        "amplitude_percent": [
+          -0.3506907386238231,
+          -0.19830321796357478
+        ],
+        "delta_complex_percent": [
+          -0.15284187535869476,
+          -0.26183862086980103
+        ]
+      },
+      {
+        "time_s": 51.03,
+        "time_from_cue_s": 27.532561,
+        "score": 31.78342177773852,
+        "phase_deg": 0.00780744024483492,
+        "ratio_percent": -0.029359808176012494,
+        "amplitude_percent": [
+          0.011864529961034147,
+          0.041258388468937424
+        ],
+        "delta_complex_percent": [
+          -0.029360499120187327,
+          0.013622618954331568
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00015660000281059183,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_ring_parallel_01",
+    "source": "rx",
+    "material": "gold_ring",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 66.12,
+    "cue_s": 22.596885,
+    "reply_s": 58.927733,
+    "background_phase_deg": 124.89886661398327,
+    "background_amplitudes": [
+      0.2556259832707589,
+      0.22378332108907412
+    ],
+    "background_phase_noise_deg": 0.0005518879019321372,
+    "background_ratio_noise_percent": 0.0008890602519516569,
+    "active_phase_min_max_deg": [
+      -0.0846397348193641,
+      0.00668967771417441
+    ],
+    "active_ratio_min_max_percent": [
+      -0.15602478664720823,
+      0.0027541361866859314
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.29784140641384715,
+        0.027768948184939704
+      ],
+      [
+        -0.14391006073846674,
+        0.047216160987999974
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 37.47,
+        "time_from_cue_s": 14.873114999999999,
+        "score": 177.22230414177594,
+        "phase_deg": -0.0646105458349992,
+        "ratio_percent": -0.1182882004467794,
+        "amplitude_percent": [
+          -0.1654481271698671,
+          -0.04935257212064447
+        ],
+        "delta_complex_percent": [
+          -0.1183629422159949,
+          -0.11261218421416268
+        ]
+      },
+      {
+        "time_s": 39.65,
+        "time_from_cue_s": 17.053115,
+        "score": 233.06367851222123,
+        "phase_deg": -0.0846397348193641,
+        "ratio_percent": -0.15602478664720823,
+        "amplitude_percent": [
+          -0.29784140641384715,
+          -0.1424217240847839
+        ],
+        "delta_complex_percent": [
+          -0.1561842088546212,
+          -0.1473959851364243
+        ]
+      },
+      {
+        "time_s": 41.19,
+        "time_from_cue_s": 18.593114999999997,
+        "score": 169.88499731443937,
+        "phase_deg": -0.05991360468678974,
+        "ratio_percent": -0.11617599500236743,
+        "amplitude_percent": [
+          -0.2040914951965814,
+          -0.08649100129204652
+        ],
+        "delta_complex_percent": [
+          -0.11626937400814377,
+          -0.10437506365098737
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00017699999807518907,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_ring_perpendicular_01",
+    "source": "rx",
+    "material": "gold_ring",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 76.9,
+    "cue_s": 23.048945,
+    "reply_s": 69.403415,
+    "background_phase_deg": 124.90434433459045,
+    "background_amplitudes": [
+      0.25563547936715825,
+      0.2238447292430502
+    ],
+    "background_phase_noise_deg": 0.000589727527755246,
+    "background_ratio_noise_percent": 0.0006072833113422377,
+    "active_phase_min_max_deg": [
+      -0.03689849672032046,
+      0.005028476369646223
+    ],
+    "active_ratio_min_max_percent": [
+      -0.07725756521562258,
+      0.003473056233659203
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.12416513173240933,
+        0.016380309648721936
+      ],
+      [
+        -0.08868576878094889,
+        0.030678068515618096
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 44.75,
+        "time_from_cue_s": 21.701055,
+        "score": 38.73255857388442,
+        "phase_deg": -0.010096146007749178,
+        "ratio_percent": -0.021099193857292576,
+        "amplitude_percent": [
+          -0.026630328196082208,
+          -0.005513810002156862
+        ],
+        "delta_complex_percent": [
+          -0.02110071557196429,
+          -0.017617216478990505
+        ]
+      },
+      {
+        "time_s": 46.43,
+        "time_from_cue_s": 23.381055,
+        "score": 101.88231431442998,
+        "phase_deg": -0.029477696133932963,
+        "ratio_percent": -0.05391320757582329,
+        "amplitude_percent": [
+          -0.07530425159924907,
+          -0.021920656801381843
+        ],
+        "delta_complex_percent": [
+          -0.05392727807094107,
+          -0.051419623184919716
+        ]
+      },
+      {
+        "time_s": 48.03,
+        "time_from_cue_s": 24.981055,
+        "score": 60.79607772224329,
+        "phase_deg": -0.016925641491285708,
+        "ratio_percent": -0.03254737245260366,
+        "amplitude_percent": [
+          -0.09523217388659247,
+          -0.06364761538953496
+        ],
+        "delta_complex_percent": [
+          -0.032556087544801125,
+          -0.029523429287220508
+        ]
+      },
+      {
+        "time_s": 51.83,
+        "time_from_cue_s": 28.781055,
+        "score": 137.10508092603953,
+        "phase_deg": -0.030147141105988394,
+        "ratio_percent": -0.07725756521562258,
+        "amplitude_percent": [
+          -0.09479112050442454,
+          -0.017737817788402447
+        ],
+        "delta_complex_percent": [
+          -0.07727153515369765,
+          -0.05257604707926769
+        ]
+      },
+      {
+        "time_s": 54.09,
+        "time_from_cue_s": 31.041055000000004,
+        "score": 90.71012510969396,
+        "phase_deg": -0.014352920580837838,
+        "ratio_percent": -0.053066894224795616,
+        "amplitude_percent": [
+          -0.05484254667015875,
+          -0.001970437419675629
+        ],
+        "delta_complex_percent": [
+          -0.053071025303639045,
+          -0.02503478872434294
+        ]
+      },
+      {
+        "time_s": 61.79,
+        "time_from_cue_s": 38.741055,
+        "score": 30.82786407752306,
+        "phase_deg": 0.003611043132251935,
+        "ratio_percent": -0.018348230247521635,
+        "amplitude_percent": [
+          0.004920454783132889,
+          0.024169941072370745
+        ],
+        "delta_complex_percent": [
+          -0.01834831762456591,
+          0.006301232715317805
+        ]
+      },
+      {
+        "time_s": 64.27,
+        "time_from_cue_s": 41.22105499999999,
+        "score": 37.05849551092444,
+        "phase_deg": 0.003350539113653955,
+        "ratio_percent": -0.022238948731966145,
+        "amplitude_percent": [
+          0.0010037701396454644,
+          0.02334692278735086
+        ],
+        "delta_complex_percent": [
+          -0.022239114587344577,
+          0.005846504817122763
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00016250000317086233,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_steel_plate_parallel_01",
+    "source": "rx",
+    "material": "steel_plate",
+    "orientation": "parallel",
+    "distance_mm": 400,
+    "distance_approximate": true,
+    "duration_s": 108.36,
+    "cue_s": 23.772858,
+    "reply_s": 98.318797,
+    "background_phase_deg": 124.90795455009983,
+    "background_amplitudes": [
+      0.25563875789888235,
+      0.22389709592241291
+    ],
+    "background_phase_noise_deg": 0.0004573375670383173,
+    "background_ratio_noise_percent": 0.0008953124650816369,
+    "active_phase_min_max_deg": [
+      -0.21600379096033567,
+      0.00831124955542387
+    ],
+    "active_ratio_min_max_percent": [
+      -0.5923626385784565,
+      0.026246849618088007
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.6474422961047157,
+        0.03814938088945589
+      ],
+      [
+        -0.1995987132311789,
+        0.058161044557661815
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 36.67,
+        "time_from_cue_s": 12.897142000000002,
+        "score": 812.9107697582311,
+        "phase_deg": -0.21600379096033567,
+        "ratio_percent": -0.5923626385784565,
+        "amplitude_percent": [
+          -0.6474422961047157,
+          -0.05427348998143726
+        ],
+        "delta_complex_percent": [
+          -0.5930859771277835,
+          -0.3746089657657009
+        ]
+      },
+      {
+        "time_s": 39.17,
+        "time_from_cue_s": 15.397142000000002,
+        "score": 542.3608020862812,
+        "phase_deg": -0.15102103568314293,
+        "ratio_percent": -0.38520437766920895,
+        "amplitude_percent": [
+          -0.5358628396784547,
+          -0.1482623709259937
+        ],
+        "delta_complex_percent": [
+          -0.3855713519046354,
+          -0.26244494015170056
+        ]
+      },
+      {
+        "time_s": 40.99,
+        "time_from_cue_s": 17.217142000000003,
+        "score": 43.95374150904471,
+        "phase_deg": -0.005638001648614473,
+        "ratio_percent": -0.03777279491041139,
+        "amplitude_percent": [
+          -0.12458037378213056,
+          -0.08621965442724548
+        ],
+        "delta_complex_percent": [
+          -0.03777342751797424,
+          -0.009836316374030641
+        ]
+      },
+      {
+        "time_s": 49.73,
+        "time_from_cue_s": 25.957141999999997,
+        "score": 38.17631447504235,
+        "phase_deg": 0.006611997927810842,
+        "ratio_percent": -0.03163392657855025,
+        "amplitude_percent": [
+          0.00973680208130219,
+          0.04019915821502111
+        ],
+        "delta_complex_percent": [
+          -0.031634636455293276,
+          0.011536618202156054
+        ]
+      },
+      {
+        "time_s": 65.71,
+        "time_from_cue_s": 41.937141999999994,
+        "score": 42.51448603842206,
+        "phase_deg": 0.007645865404303345,
+        "ratio_percent": -0.03499724758519743,
+        "amplitude_percent": [
+          0.002812574568037872,
+          0.03777846257714864
+        ],
+        "delta_complex_percent": [
+          -0.034998154687514306,
+          0.01333993450223925
+        ]
+      },
+      {
+        "time_s": 93.63,
+        "time_from_cue_s": 69.857142,
+        "score": 36.48753486383577,
+        "phase_deg": 0.007662113060349791,
+        "ratio_percent": -0.029020452739290072,
+        "amplitude_percent": [
+          0.004333677382954259,
+          0.03278293896534841
+        ],
+        "delta_complex_percent": [
+          -0.029021581987861256,
+          0.013369137218402957
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00016039999900385737,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "rx_steel_plate_perpendicular_01",
+    "source": "rx",
+    "material": "steel_plate",
+    "orientation": "perpendicular",
+    "distance_mm": 400.0,
+    "distance_approximate": false,
+    "duration_s": 92.41,
+    "cue_s": 24.996176,
+    "reply_s": 74.886535,
+    "background_phase_deg": 124.91558283644461,
+    "background_amplitudes": [
+      0.2556677358867939,
+      0.2239597371031111
+    ],
+    "background_phase_noise_deg": 0.0006911156044080529,
+    "background_ratio_noise_percent": 0.0009382656228027637,
+    "active_phase_min_max_deg": [
+      -0.3869607279680507,
+      0.007487627906545466
+    ],
+    "active_ratio_min_max_percent": [
+      -0.2873449291656383,
+      0.18762845853879567
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.6825454347862541,
+        0.03229472592821982
+      ],
+      [
+        -0.8562962082686236,
+        0.0487901993293969
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 52.39,
+        "time_from_cue_s": 27.393824000000002,
+        "score": 589.4610204294052,
+        "phase_deg": -0.3865560194821904,
+        "ratio_percent": 0.1745865658851583,
+        "amplitude_percent": [
+          -0.6617333919611159,
+          -0.8562962082686236
+        ],
+        "delta_complex_percent": [
+          0.17210567646980382,
+          -0.6764581704427428
+        ]
+      },
+      {
+        "time_s": 54.59,
+        "time_from_cue_s": 29.593824000000005,
+        "score": 199.0400424013586,
+        "phase_deg": -0.13079098794978153,
+        "ratio_percent": 0.05786004908139932,
+        "amplitude_percent": [
+          -0.19962243168981947,
+          -0.2533301831579245
+        ],
+        "delta_complex_percent": [
+          0.05760208915234323,
+          -0.22840824459746958
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0001866000038717175,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_copper_parallel_01",
+    "source": "tx",
+    "material": "copper",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 76.13,
+    "cue_s": 22.187044,
+    "reply_s": 68.646642,
+    "background_phase_deg": 119.5352347571942,
+    "background_amplitudes": [
+      0.07230852385869707,
+      0.04675315827708647
+    ],
+    "background_phase_noise_deg": 0.0004531073223990045,
+    "background_ratio_noise_percent": 0.0014266945596089248,
+    "active_phase_min_max_deg": [
+      -0.008109864628685565,
+      0.0066198908413326405
+    ],
+    "active_ratio_min_max_percent": [
+      -0.029038317691104047,
+      -0.002149738969328093
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.13701652492303984,
+        0.021779452440663306
+      ],
+      [
+        -0.1269479515439263,
+        0.033799698852306076
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 43.19,
+        "time_from_cue_s": 21.002955999999998,
+        "score": 24.46782353063639,
+        "phase_deg": 0.0066198908413326405,
+        "ratio_percent": -0.028001865679892806,
+        "amplitude_percent": [
+          -0.02602063822151159,
+          0.0023297550170377455
+        ],
+        "delta_complex_percent": [
+          -0.028002725449262956,
+          0.01155035699466431
+        ]
+      },
+      {
+        "time_s": 44.79,
+        "time_from_cue_s": 22.602956,
+        "score": 16.310699969617556,
+        "phase_deg": 0.002497739752566091,
+        "ratio_percent": -0.021901115028474406,
+        "amplitude_percent": [
+          -0.08039509033322127,
+          -0.0582387495777124
+        ],
+        "delta_complex_percent": [
+          -0.021901228443846895,
+          0.004358355801126593
+        ]
+      },
+      {
+        "time_s": 46.33,
+        "time_from_cue_s": 24.142955999999998,
+        "score": 24.187224770087568,
+        "phase_deg": 0.0059208890264595086,
+        "ratio_percent": -0.029038317691104047,
+        "amplitude_percent": [
+          -0.08593874174939523,
+          -0.05656310626598776
+        ],
+        "delta_complex_percent": [
+          -0.029038943306153166,
+          0.010330603211834297
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0021320000014384277,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_copper_perpendicular_01",
+    "source": "tx",
+    "material": "copper",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 62.93,
+    "cue_s": 23.01125,
+    "reply_s": 54.625421,
+    "background_phase_deg": 119.5212282209938,
+    "background_amplitudes": [
+      0.07228722829473319,
+      0.04675555815532889
+    ],
+    "background_phase_noise_deg": 0.0006701140231431552,
+    "background_ratio_noise_percent": 0.0010429709157214453,
+    "active_phase_min_max_deg": [
+      -0.0055552697032293695,
+      0.01646497476191199
+    ],
+    "active_ratio_min_max_percent": [
+      -0.04434540829567411,
+      -0.0022535280069600322
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.1673251834104856,
+        0.04011663783419736
+      ],
+      [
+        -0.15802656582812505,
+        0.04954270208432089
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 35.39,
+        "time_from_cue_s": 12.37875,
+        "score": 17.34327800135228,
+        "phase_deg": 0.002364820650576303,
+        "ratio_percent": -0.01771011217678246,
+        "amplitude_percent": [
+          -0.0136757392012756,
+          0.0034015520942223708
+        ],
+        "delta_complex_percent": [
+          -0.017710237964466892,
+          0.0041266091959059285
+        ]
+      },
+      {
+        "time_s": 37.53,
+        "time_from_cue_s": 14.51875,
+        "score": 49.047408545983686,
+        "phase_deg": 0.016384770511741375,
+        "ratio_percent": -0.04434540829567411,
+        "amplitude_percent": [
+          -0.1455504158211658,
+          -0.10164750887639343
+        ],
+        "delta_complex_percent": [
+          -0.04435004649290737,
+          0.028583796958075797
+        ]
+      },
+      {
+        "time_s": 40.25,
+        "time_from_cue_s": 17.23875,
+        "score": 25.962966059924526,
+        "phase_deg": 0.0060126402257390955,
+        "ratio_percent": -0.025410177665253292,
+        "amplitude_percent": [
+          -0.08427573028672943,
+          -0.059399222164613304
+        ],
+        "delta_complex_percent": [
+          -0.02541105065443182,
+          0.010490548435464254
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0001711999975668732,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_aluminum_parallel_01",
+    "source": "tx",
+    "material": "aluminum",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 65.02,
+    "cue_s": 24.47981,
+    "reply_s": 57.314491,
+    "background_phase_deg": 119.51133120105987,
+    "background_amplitudes": [
+      0.07227554651865734,
+      0.046759198018592615
+    ],
+    "background_phase_noise_deg": 0.0005595885930806755,
+    "background_ratio_noise_percent": 0.001351043895812251,
+    "active_phase_min_max_deg": [
+      -0.011890043995535202,
+      -0.0003454667537851344
+    ],
+    "active_ratio_min_max_percent": [
+      -0.12478006874503018,
+      -0.0017548772376146662
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.15453490005341822,
+        0.04145943412028334
+      ],
+      [
+        -0.14746508227431554,
+        0.050830268051969586
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 34.01,
+        "time_from_cue_s": 9.530189999999997,
+        "score": 58.94704521774456,
+        "phase_deg": -0.006588354634792175,
+        "ratio_percent": -0.0780353553998313,
+        "amplitude_percent": [
+          -0.04672900755057771,
+          0.03144036760289086
+        ],
+        "delta_complex_percent": [
+          -0.07803601864452252,
+          -0.011489689882472757
+        ]
+      },
+      {
+        "time_s": 35.51,
+        "time_from_cue_s": 11.030189999999997,
+        "score": 94.77087766685501,
+        "phase_deg": -0.011890043995535202,
+        "ratio_percent": -0.12478006874503018,
+        "amplitude_percent": [
+          -0.15199376455247132,
+          -0.027046535290774755
+        ],
+        "delta_complex_percent": [
+          -0.1247822609607484,
+          -0.020725591817013975
+        ]
+      },
+      {
+        "time_s": 37.13,
+        "time_from_cue_s": 12.650190000000002,
+        "score": 68.34601490702141,
+        "phase_deg": -0.008434534886869646,
+        "ratio_percent": -0.09006498996134356,
+        "amplitude_percent": [
+          -0.13064136736423457,
+          -0.041240072483491215
+        ],
+        "delta_complex_percent": [
+          -0.09006612661578386,
+          -0.01470789157406015
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0001736999984132126,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_aluminum_perpendicular_01",
+    "source": "tx",
+    "material": "aluminum",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 69.97,
+    "cue_s": 25.299672,
+    "reply_s": 61.872923,
+    "background_phase_deg": 119.50034507102757,
+    "background_amplitudes": [
+      0.07226300349183143,
+      0.046763357387382326
+    ],
+    "background_phase_noise_deg": 0.00045747805053333824,
+    "background_ratio_noise_percent": 0.001362541713923852,
+    "active_phase_min_max_deg": [
+      -0.006275121734749235,
+      -0.0005805876603842728
+    ],
+    "active_ratio_min_max_percent": [
+      -0.0347098633106931,
+      -0.0022365625533771307
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.11811180319166129,
+        0.022516880473417995
+      ],
+      [
+        -0.11172487295613459,
+        0.029093183768391775
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 38.67,
+        "time_from_cue_s": 13.370328,
+        "score": 25.8723444465544,
+        "phase_deg": -0.003876974844263791,
+        "ratio_percent": -0.03330733708062783,
+        "amplitude_percent": [
+          -0.031138045232521283,
+          0.0026314461076853823
+        ],
+        "delta_complex_percent": [
+          -0.03330756789614715,
+          -0.006764358158290563
+        ]
+      },
+      {
+        "time_s": 41.59,
+        "time_from_cue_s": 16.290328000000002,
+        "score": 27.20790119534119,
+        "phase_deg": -0.004371906513775766,
+        "ratio_percent": -0.0347098633106931,
+        "amplitude_percent": [
+          -0.05300956898550976,
+          -0.017922338463946294
+        ],
+        "delta_complex_percent": [
+          -0.0347101896798488,
+          -0.0076276883680218895
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00017770000340533443,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_ring_parallel_01",
+    "source": "tx",
+    "material": "gold_ring",
+    "orientation": "parallel",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 70.08,
+    "cue_s": 22.185728,
+    "reply_s": 62.08942,
+    "background_phase_deg": 119.49040003029394,
+    "background_amplitudes": [
+      0.07225098090665802,
+      0.0467671278422421
+    ],
+    "background_phase_noise_deg": 0.0004463951592654477,
+    "background_ratio_noise_percent": 0.0011533362452289598,
+    "active_phase_min_max_deg": [
+      -0.006604354676610142,
+      -0.0003335555286399599
+    ],
+    "active_ratio_min_max_percent": [
+      -0.025050037837929195,
+      -0.0014960284194261591
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.14002012075299905,
+        0.026640138192815823
+      ],
+      [
+        -0.1314756869483556,
+        0.03471892504995849
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 34.45,
+        "time_from_cue_s": 12.264272000000002,
+        "score": 13.132944518841143,
+        "phase_deg": -0.0013255866216394434,
+        "ratio_percent": -0.01475441588278616,
+        "amplitude_percent": [
+          -0.012509831891786505,
+          0.0007499894528900347
+        ],
+        "delta_complex_percent": [
+          -0.014754461946856506,
+          -0.002313285220046518
+        ]
+      },
+      {
+        "time_s": 36.71,
+        "time_from_cue_s": 14.524272,
+        "score": 21.799997577127062,
+        "phase_deg": -0.0008348325979431457,
+        "ratio_percent": -0.025050037837929195,
+        "amplitude_percent": [
+          -0.10662101206032051,
+          -0.08138065115743778
+        ],
+        "delta_complex_percent": [
+          -0.025050065288730713,
+          -0.001456878374398152
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.0002274999969813507,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_ring_perpendicular_01",
+    "source": "tx",
+    "material": "gold_ring",
+    "orientation": "perpendicular",
+    "distance_mm": 200.0,
+    "distance_approximate": false,
+    "duration_s": 60.29,
+    "cue_s": 22.738418,
+    "reply_s": 52.810662,
+    "background_phase_deg": 119.47981073073706,
+    "background_amplitudes": [
+      0.07223900496587532,
+      0.04677117962305406
+    ],
+    "background_phase_noise_deg": 0.0004939787133224573,
+    "background_ratio_noise_percent": 0.0007490541445585457,
+    "active_phase_min_max_deg": [
+      -0.005066050757592878,
+      -0.0004996760305557683
+    ],
+    "active_ratio_min_max_percent": [
+      -0.01736283434180366,
+      -0.0010389362791491785
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.14422614159458422,
+        0.027634236459159037
+      ],
+      [
+        -0.13674069805492317,
+        0.03462230685514008
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 33.89,
+        "time_from_cue_s": 11.151582000000001,
+        "score": 15.602140957297532,
+        "phase_deg": -0.0017425416380319908,
+        "ratio_percent": -0.011384220727791711,
+        "amplitude_percent": [
+          -0.010306820626240536,
+          0.0005036634979446751
+        ],
+        "delta_complex_percent": [
+          -0.011384306937035713,
+          -0.003040951403542931
+        ]
+      },
+      {
+        "time_s": 35.45,
+        "time_from_cue_s": 12.711582000000003,
+        "score": 23.46330252798082,
+        "phase_deg": -0.0017966885539420405,
+        "ratio_percent": -0.01736283434180366,
+        "amplitude_percent": [
+          -0.061474098229324065,
+          -0.04487036073832407
+        ],
+        "delta_complex_percent": [
+          -0.017362884805796577,
+          -0.003135310583107296
+        ]
+      },
+      {
+        "time_s": 37.19,
+        "time_from_cue_s": 14.451581999999998,
+        "score": 21.206190942922603,
+        "phase_deg": -0.002366521689160227,
+        "ratio_percent": -0.01547393182331221,
+        "amplitude_percent": [
+          -0.11605118098517907,
+          -0.1010381591719917
+        ],
+        "delta_complex_percent": [
+          -0.015474008347729003,
+          -0.004129750986384797
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00018680000175663736,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_steel_plate_parallel_01",
+    "source": "tx",
+    "material": "steel_plate",
+    "orientation": "parallel",
+    "distance_mm": 400.0,
+    "distance_approximate": false,
+    "duration_s": 61.5,
+    "cue_s": 22.742488,
+    "reply_s": 53.063823,
+    "background_phase_deg": 119.47129916757928,
+    "background_amplitudes": [
+      0.07223133593460596,
+      0.04677534518751427
+    ],
+    "background_phase_noise_deg": 0.0004774991754556259,
+    "background_ratio_noise_percent": 0.0008501599041737607,
+    "active_phase_min_max_deg": [
+      -0.004584203654992801,
+      0.012624664406311893
+    ],
+    "active_ratio_min_max_percent": [
+      -0.06361389211498603,
+      -0.0014503989392022892
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.14807213573629147,
+        0.03996659301223468
+      ],
+      [
+        -0.1410562664007092,
+        0.04694651643684681
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 33.51,
+        "time_from_cue_s": 10.767511999999996,
+        "score": 79.35948349802965,
+        "phase_deg": 0.012624664406311893,
+        "ratio_percent": -0.06361389211498603,
+        "amplitude_percent": [
+          -0.04022485373987708,
+          0.02377802260973642
+        ],
+        "delta_complex_percent": [
+          -0.06361696156294686,
+          0.022019093001741746
+        ]
+      },
+      {
+        "time_s": 35.93,
+        "time_from_cue_s": 13.187511999999998,
+        "score": 35.61334696560561,
+        "phase_deg": 0.0033361768081339557,
+        "ratio_percent": -0.029688668812284796,
+        "amplitude_percent": [
+          -0.11062898574209482,
+          -0.08107092033028841
+        ],
+        "delta_complex_percent": [
+          -0.02968911968911327,
+          0.005820733707740311
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.00018569999883766286,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  },
+  {
+    "stage": "tx_steel_plate_perpendicular_01",
+    "source": "tx",
+    "material": "steel_plate",
+    "orientation": "perpendicular",
+    "distance_mm": 400.0,
+    "distance_approximate": false,
+    "duration_s": 93.62,
+    "cue_s": 22.684968,
+    "reply_s": 55.489365,
+    "background_phase_deg": 119.46371926221804,
+    "background_amplitudes": [
+      0.07222358394146859,
+      0.046778928451906746
+    ],
+    "background_phase_noise_deg": 0.0005032673075506067,
+    "background_ratio_noise_percent": 0.0008333619046498688,
+    "active_phase_min_max_deg": [
+      -0.014506254268354207,
+      0.00170382277975327
+    ],
+    "active_ratio_min_max_percent": [
+      -0.026677266193562272,
+      -0.0016474422832058436
+    ],
+    "active_channel_amplitude_min_max_percent": [
+      [
+        -0.1621137551824287,
+        0.03768340939350673
+      ],
+      [
+        -0.15192935413787156,
+        0.04525371078205874
+      ]
+    ],
+    "excursion_candidates": [
+      {
+        "time_s": 36.67,
+        "time_from_cue_s": 13.985032,
+        "score": 26.655151353912135,
+        "phase_deg": -0.009027105467558695,
+        "ratio_percent": -0.01643141890492404,
+        "amplitude_percent": [
+          -0.008262759141029728,
+          0.008500037307843947
+        ],
+        "delta_complex_percent": [
+          -0.01643297450775545,
+          -0.015752700538301002
+        ]
+      },
+      {
+        "time_s": 38.55,
+        "time_from_cue_s": 15.865031999999996,
+        "score": 40.84624519428158,
+        "phase_deg": -0.014030154316636243,
+        "ratio_percent": -0.024878683523675806,
+        "amplitude_percent": [
+          -0.15995721735726134,
+          -0.13497250141833517
+        ],
+        "delta_complex_percent": [
+          -0.024881497398044322,
+          -0.024481669108089188
+        ]
+      }
+    ],
+    "largest_packet_adc_gap_s": 0.000988599997072015,
+    "caveat": "Candidates are signal extrema, not manually confirmed physical passes. Offline zero-phase smoothing is used for inspection, not causal live inference."
+  }
+]
